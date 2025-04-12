@@ -1,0 +1,137 @@
+[
+  {
+    "match_id": 8252155975,
+    "match_date": "2025-04-12 17:06 UTC",
+    "radiant_team": "BetBoom Team",
+    "dire_team": "Team Falcons",
+    "player_name": "AMMAR_THE_F",
+    "items": [
+      "Power Treads",
+      "Lotus Orb",
+      "Sange And Yasha",
+      "Black King Bar",
+      "Blade Mail",
+      "Magic Wand"
+    ],
+    "backpack": [
+      "Unknown",
+      "Unknown",
+      "Unknown"
+    ],
+    "neutral_item": "Whisper Of The Dread",
+    "win": false,
+    "kda": {
+      "kills": 6,
+      "deaths": 6,
+      "assists": 6
+    }
+  },
+  {
+    "match_id": 8251923802,
+    "match_date": "2025-04-12 14:22 UTC",
+    "radiant_team": "Shinigami Gaming",
+    "dire_team": null,
+    "player_name": "forever",
+    "items": [
+      "Power Treads",
+      "Bracer",
+      "Sange",
+      "Blade Mail",
+      "Magic Wand",
+      "Null Talisman"
+    ],
+    "backpack": [
+      "Famango",
+      "Unknown",
+      "Unknown"
+    ],
+    "neutral_item": "Misericorde",
+    "win": false,
+    "kda": {
+      "kills": 1,
+      "deaths": 13,
+      "assists": 6
+    }
+  },
+  {
+    "match_id": 8251903913,
+    "match_date": "2025-04-12 14:09 UTC",
+    "radiant_team": "Zero Tenacity",
+    "dire_team": "Team Lynx",
+    "player_name": "nefrit",
+    "items": [
+      "Pipe",
+      "Boots",
+      "Crimson Guard",
+      "Ogre Axe",
+      "Soul Ring",
+      "Sange And Yasha"
+    ],
+    "backpack": [
+      "Flask",
+      "Unknown",
+      "Unknown"
+    ],
+    "neutral_item": "Ninja Gear",
+    "win": true,
+    "kda": {
+      "kills": 1,
+      "deaths": 1,
+      "assists": 10
+    }
+  },
+  {
+    "match_id": 8251679917,
+    "match_date": "2025-04-12 11:44 UTC",
+    "radiant_team": "Team Lynx",
+    "dire_team": "Bikini Bottom",
+    "player_name": "StoneBank",
+    "items": [
+      "Power Treads",
+      "Heavens Halberd",
+      "Black King Bar",
+      "Gem",
+      "Sange And Yasha",
+      "Magic Wand"
+    ],
+    "backpack": [
+      "Null Talisman",
+      "Unknown",
+      "Unknown"
+    ],
+    "neutral_item": "Gunpowder Gauntlets",
+    "win": true,
+    "kda": {
+      "kills": 3,
+      "deaths": 4,
+      "assists": 15
+    }
+  },
+  {
+    "match_id": 8251494401,
+    "match_date": "2025-04-12 09:00 UTC",
+    "radiant_team": "1w Team",
+    "dire_team": "Virtus.pro",
+    "player_name": "SSS",
+    "items": [
+      "Eternal Shroud",
+      "Satanic",
+      "Crimson Guard",
+      "Travel Boots 2",
+      "Black King Bar",
+      "Sange And Yasha"
+    ],
+    "backpack": [
+      "Unknown",
+      "Unknown",
+      "Unknown"
+    ],
+    "neutral_item": "Gale Guard",
+    "win": true,
+    "kda": {
+      "kills": 7,
+      "deaths": 4,
+      "assists": 12
+    }
+  }
+]
