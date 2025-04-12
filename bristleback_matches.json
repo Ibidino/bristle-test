@@ -1,5 +1,32 @@
 [
   {
+    "match_id": 8252515077,
+    "match_date": "2025-04-12 22:09 UTC",
+    "radiant_team": "Tundra Esports",
+    "dire_team": "Team Spirit",
+    "player_name": "bzm",
+    "items": [
+      "Lotus Orb",
+      "Magic Wand",
+      "Blade Mail",
+      "Power Treads",
+      "Ultimate Scepter",
+      "Sange And Yasha"
+    ],
+    "backpack": [
+      "Bottle",
+      "Unknown",
+      "Unknown"
+    ],
+    "neutral_item": "Gale Guard",
+    "win": false,
+    "kda": {
+      "kills": 3,
+      "deaths": 5,
+      "assists": 2
+    }
+  },
+  {
     "match_id": 8252155975,
     "match_date": "2025-04-12 17:06 UTC",
     "radiant_team": "BetBoom Team",
@@ -105,33 +132,6 @@
       "kills": 3,
       "deaths": 4,
       "assists": 15
-    }
-  },
-  {
-    "match_id": 8251494401,
-    "match_date": "2025-04-12 09:00 UTC",
-    "radiant_team": "1w Team",
-    "dire_team": "Virtus.pro",
-    "player_name": "SSS",
-    "items": [
-      "Eternal Shroud",
-      "Satanic",
-      "Crimson Guard",
-      "Travel Boots 2",
-      "Black King Bar",
-      "Sange And Yasha"
-    ],
-    "backpack": [
-      "Unknown",
-      "Unknown",
-      "Unknown"
-    ],
-    "neutral_item": "Gale Guard",
-    "win": true,
-    "kda": {
-      "kills": 7,
-      "deaths": 4,
-      "assists": 12
     }
   }
 ]
