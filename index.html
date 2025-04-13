@@ -3,54 +3,17 @@
 <head>
   <meta charset="UTF-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
-  <title>Bristleback Matches</title>
+  <title>Bristleback: Latest Pro Matches</title>
   <script src="https://cdn.tailwindcss.com"></script>
-  <style>
-    body {
-      background-color: #0b0c10;
-    }
-    .neon-border {
-      border: 2px solid #00ff99;
-      box-shadow: 0 0 15px #00ff99aa;
-    }
-    .card-win {
-      border-color: #00ff99;
-      box-shadow: 0 0 10px #00ff99aa;
-    }
-    .card-loss {
-      border-color: #ff4c4c;
-      box-shadow: 0 0 10px #ff4c4caa;
-    }
-    .item-container {
-      position: relative;
-      width: 48px;
-      height: 48px;
-    }
-    .item-container img {
-      width: 100%;
-      height: 100%;
-    }
-    .timestamp-badge {
-      position: absolute;
-      top: 0;
-      right: 0;
-      background-color: rgba(0, 0, 0, 0.7);
-      color: #00ff99;
-      font-size: 10px;
-      padding: 1px 4px;
-      border-radius: 0 4px 0 4px;
-    }
-  </style>
 </head>
-<body class="text-gray-100 p-6 font-sans">
-  <div class="flex justify-center items-center gap-4 mb-10">
-    <img src="https://cdn.cloudflare.steamstatic.com/apps/dota2/images/heroes/bristleback_full.png" alt="Bristleback" class="w-12 h-12 rounded" />
-    <h1 class="text-4xl font-extrabold text-green-400 tracking-wide">
-      Bristleback: Latest Pro Matches
-    </h1>
-  </div>
+<body class="bg-[#1e2d3d] text-white p-6 font-sans">
 
-  <div id="matches" class="grid gap-6 max-w-5xl mx-auto"></div>
+  <h1 class="text-3xl font-bold text-center mb-8 flex items-center justify-center">
+    <img src="assets/bristle_win.png" alt="Bristleback" class="w-10 h-10 mr-3"/>
+    Bristleback: Latest Pro Matches
+  </h1>
+
+  <div id="matches" class="space-y-10 max-w-7xl mx-auto"></div>
 
   <script>
     async function loadMatches() {
@@ -58,76 +21,76 @@
       const matches = await res.json();
       const container = document.getElementById('matches');
 
-      const formatItems = (items, timestamps = {}) => {
-        return (items || [])
-          .filter(i => i && typeof i === 'string' && i !== 'recipe')
-          .map(item => {
-            const safeItem = item.toLowerCase().replace(/\s+/g, "_");
-            const key = item.toLowerCase().replace(/\s+/g, "_");
-            const minute = timestamps[key] ?? null;
-            return `
-              <div class="item-container" title="${item}">
-                <img src="https://cdn.cloudflare.steamstatic.com/apps/dota2/images/items/${safeItem}_lg.png" alt="${item}" />
-                ${minute !== null ? `<div class="timestamp-badge">${minute}m</div>` : ''}
-              </div>
-            `;
-          });
-      };
-
       matches.forEach(match => {
-        const isWin = match.win;
-        const resultClass = isWin ? 'card-win' : 'card-loss';
-        const resultText = isWin ? 'Victory' : 'Defeat';
-        const resultColor = isWin ? 'text-green-400' : 'text-red-400';
-        const matchLink = `https://www.opendota.com/matches/${match.match_id}`;
-        const itemGrid = formatItems(match.items, match.item_timestamps);
-        while (itemGrid.length < 6) itemGrid.push('<div class="w-12 h-12"></div>');
+        const resultText = match.win ? "Victory" : "Defeat";
+        const resultColor = match.win ? "text-green-400" : "text-red-400";
+        const bristleImage = match.win ? "assets/bristle_win.png" : "assets/bristle_defeat.png";
 
-        let aghsImg = "none.png";
-        if (match.bought_aghs && match.bought_shard) {
-          aghsImg = "aghs_shard_both.png";
-        } else if (match.bought_aghs && !match.bought_shard) {
-          aghsImg = "aghs_only.png";
-        } else if (!match.bought_aghs && match.bought_shard) {
-          aghsImg = "shard_only.png";
-        }
+        const aghsImg =
+          match.bought_aghs && match.bought_shard ? "assets/aghs_shard_both.png" :
+          match.bought_aghs ? "assets/aghs_only.png" :
+          match.bought_shard ? "assets/shard_only.png" :
+          "assets/none.png";
 
-        const aghsImageTag = `<img src="assets/${aghsImg}" alt="Aghanim's Purchase Status" class="w-9 h-9" />`;
+        const itemImages = match.items.map(item => {
+          const key = item.toLowerCase().replace(/ /g, "_");
+          const minute = match.item_timestamps?.[key];
+          return `
+            <div class="relative">
+              <img src="https://cdn.cloudflare.steamstatic.com/apps/dota2/images/items/${key}_lg.png" alt="${item}" title="${item}" class="w-12 h-12 object-contain"/>
+              ${minute !== undefined ? `<span class="absolute bottom-0 right-0 text-[10px] bg-black bg-opacity-70 px-1 rounded text-green-300">${minute}m</span>` : ""}
+            </div>`;
+        }).join("");
 
-        const neutralItemTag = match.neutral_item && typeof match.neutral_item === 'string'
-          ? `<img src="https://cdn.cloudflare.steamstatic.com/apps/dota2/images/items/${match.neutral_item.toLowerCase().replace(/\s+/g, "_")}_lg.png" alt="${match.neutral_item}" title="${match.neutral_item}" class="w-9 h-9" />`
-          : `<span class="text-xs text-gray-500">${match.neutral_item || 'None'}</span>`;
+        const neutralKey = match.neutral_item.toLowerCase().replace(/ /g, "_");
+        const neutralImgPath = `https://cdn.cloudflare.steamstatic.com/apps/dota2/images/items/${neutralKey}_lg.png`;
 
-        const card = document.createElement('div');
-        card.className = `grid grid-cols-2 gap-4 rounded-xl p-4 border neon-border ${resultClass} transition transform hover:-translate-y-1 hover:scale-105 duration-300`;
-
-        card.innerHTML = `
-          <div class="flex flex-col justify-between">
-            <div>
-              <h2 class="text-xl font-bold text-white mb-1">${match.player_name}</h2>
-              <p class="text-sm text-gray-300 mb-1">KDA: <span class="text-white">${match.kda.kills}/${match.kda.deaths}/${match.kda.assists}</span></p>
-              <p class="text-sm text-gray-400 mb-1">${match.match_date}</p>
-              <p class="text-sm text-gray-400 mb-1">${match.radiant_team} vs ${match.dire_team}</p>
-              <p class="text-sm text-gray-400 mb-1">Match ID: ${match.match_id}</p>
-              <a href="${matchLink}" target="_blank" class="text-sm text-blue-400 underline hover:text-blue-300">
-                View on OpenDota
-              </a>
+        const matchHTML = `
+          <div class="border border-blue-400 rounded-lg overflow-hidden">
+            <!-- Header -->
+            <div class="bg-[#2e4a66] grid grid-cols-3 text-center py-2 font-semibold text-xl tracking-wider">
+              <div>PLAYER</div>
+              <div>K&nbsp;&nbsp;D&nbsp;&nbsp;A</div>
+              <div>ITEMS</div>
             </div>
-            <p class="text-lg font-semibold ${resultColor} mt-2">${resultText}</p>
-          </div>
 
-          <div class="flex flex-col items-center">
-            <div class="grid grid-cols-3 gap-2 mb-3">
-              ${itemGrid.join("")}
-            </div>
-            <div class="flex gap-4 mt-3 ">
-              ${aghsImageTag}
-              ${neutralItemTag}
+            <!-- Content -->
+            <div class="bg-[#173054] grid grid-cols-3 gap-4 p-4 text-sm md:text-base">
+              <!-- Player Info -->
+              <div class="flex flex-col items-center justify-center space-y-2">
+                <div class="text-lg font-semibold">${match.player_name}</div>
+                <img src="${bristleImage}" alt="Result" class="w-20 h-20 object-contain rounded"/>
+                <div class="${resultColor} font-semibold text-base">${resultText}</div>
+              </div>
+
+              <!-- KDA and Match Info -->
+              <div class="flex flex-col items-start justify-center space-y-1 text-center">
+                <div class="text-lg font-bold">${match.kda.kills} / ${match.kda.deaths} / ${match.kda.assists}</div>
+                <div>${match.match_date}</div>
+                <div>${match.radiant_team || "Radiant"} vs ${match.dire_team || "Dire"}</div>
+                <div>Match ID: ${match.match_id}</div>
+                <a href="https://www.opendota.com/matches/${match.match_id}" target="_blank" class="text-blue-300 hover:underline">View on OpenDota</a>
+              </div>
+
+              <!-- Items -->
+              <div class="flex flex-col items-center">
+                <div class="grid grid-cols-3 gap-2 mb-4">
+                  ${itemImages}
+                </div>
+                <div class="flex gap-3 items-center">
+                  <img src="${aghsImg}" alt="Aghs/Shard" class="w-10 h-10 object-contain" />
+                  <img src="${neutralImgPath}" 
+                       alt="${match.neutral_item}" 
+                       title="${match.neutral_item}" 
+                       class="w-10 h-10 object-contain" 
+                       onerror="this.style.display='none'; this.insertAdjacentHTML('afterend', \`<span class='text-xs'>${match.neutral_item}</span>\`);" />
+                </div>
+              </div>
             </div>
           </div>
         `;
 
-        container.appendChild(card);
+        container.innerHTML += matchHTML;
       });
     }
 
