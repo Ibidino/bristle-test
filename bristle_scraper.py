@@ -118,7 +118,9 @@ def get_bristleback_games(limit=5):
                     "neutral_item": neutral_item,
                     "win": win,
                     "kda": kda,
-                    "item_timestamps": item_timestamps
+                    "item_timestamps": item_timestamps,
+                    "bought_aghs": "aghanims_scepter" in item_timestamps,
+                    "bought_shard": "aghanims_shard" in item_timestamps
                 }
 
                 bristleback_games.append(game_info)
