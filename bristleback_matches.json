@@ -1,5 +1,64 @@
 [
   {
+    "match_id": 8253227408,
+    "match_date": "2025-04-13 12:00 UTC",
+    "radiant_team": "4Pirates",
+    "dire_team": "Zero Tenacity",
+    "player_name": "nefrit",
+    "items": [
+      "Pipe",
+      "Travel Boots",
+      "Lotus Orb",
+      "Magic Wand",
+      "Soul Ring",
+      "Assault"
+    ],
+    "backpack": [
+      "Unknown",
+      "Unknown",
+      "Unknown"
+    ],
+    "neutral_item": "Iron Talon",
+    "win": true,
+    "kda": {
+      "kills": 5,
+      "deaths": 0,
+      "assists": 15
+    },
+    "item_timestamps": {
+      "circlet": 0,
+      "enchanted_mango": 0,
+      "branches": 0,
+      "gauntlets": 22,
+      "tango": 0,
+      "bracer": 1,
+      "boots": 2,
+      "ring_of_health": 5,
+      "quelling_blade": 5,
+      "void_stone": 6,
+      "pers": 7,
+      "clarity": 8,
+      "platemail": 27,
+      "energy_booster": 11,
+      "lotus_orb": 11,
+      "magic_stick": 11,
+      "magic_wand": 12,
+      "aghanims_shard": 15,
+      "cloak": 15,
+      "tpscroll": 20,
+      "ring_of_tarrasque": 18,
+      "ring_of_regen": 20,
+      "headdress": 20,
+      "pipe": 20,
+      "ring_of_protection": 26,
+      "soul_ring": 22,
+      "travel_boots": 24,
+      "buckler": 26,
+      "assault": 28,
+      "hyperstone": 28
+    }
+  },
+  {
     "match_id": 8253141174,
     "match_date": "2025-04-13 10:47 UTC",
     "radiant_team": null,
@@ -238,58 +297,6 @@
       "lotus_orb": 28,
       "mithril_hammer": 34,
       "black_king_bar": 34
-    }
-  },
-  {
-    "match_id": 8251923802,
-    "match_date": "2025-04-12 14:22 UTC",
-    "radiant_team": "Shinigami Gaming",
-    "dire_team": null,
-    "player_name": "forever",
-    "items": [
-      "Power Treads",
-      "Bracer",
-      "Sange",
-      "Blade Mail",
-      "Magic Wand",
-      "Null Talisman"
-    ],
-    "backpack": [
-      "Famango",
-      "Unknown",
-      "Unknown"
-    ],
-    "neutral_item": "Misericorde",
-    "win": false,
-    "kda": {
-      "kills": 1,
-      "deaths": 13,
-      "assists": 6
-    },
-    "item_timestamps": {
-      "enchanted_mango": 2,
-      "branches": 0,
-      "magic_stick": 0,
-      "circlet": 4,
-      "tango": 2,
-      "mantle": 1,
-      "null_talisman": 3,
-      "magic_wand": 3,
-      "flask": 3,
-      "gauntlets": 4,
-      "bracer": 4,
-      "boots": 5,
-      "belt_of_strength": 18,
-      "gloves": 7,
-      "power_treads": 7,
-      "chainmail": 9,
-      "broadsword": 12,
-      "blade_mail": 13,
-      "smoke_of_deceit": 13,
-      "tpscroll": 14,
-      "ogre_axe": 16,
-      "sange": 19,
-      "aghanims_shard": 24
     }
   }
 ]
