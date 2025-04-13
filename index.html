@@ -2,13 +2,33 @@
 <html lang="en">
 <head>
   <meta charset="UTF-8" />
-  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
   <title>Bristleback Matches</title>
   <script src="https://cdn.tailwindcss.com"></script>
+  <style>
+    body {
+      background-color: #0b0c10;
+    }
+    .neon-border {
+      border: 2px solid #00ff99;
+      box-shadow: 0 0 15px #00ff99aa;
+    }
+    .card-win {
+      border-color: #00ff99;
+      box-shadow: 0 0 10px #00ff99aa;
+    }
+    .card-loss {
+      border-color: #ff4c4c;
+      box-shadow: 0 0 10px #ff4c4caa;
+    }
+  </style>
 </head>
-<body class="bg-gray-100 text-gray-900 p-6">
-  <h1 class="text-3xl font-bold mb-6 text-center">Bristleback Tournament Matches (Last 2 Weeks)</h1>
-  <div id="matches" class="grid gap-6 max-w-4xl mx-auto"></div>
+<body class="text-gray-100 p-6 font-sans">
+  <h1 class="text-4xl font-extrabold text-center text-green-400 mb-10 tracking-wide">
+    🐗 Bristleback Tournament Matches
+  </h1>
+
+  <div id="matches" class="grid gap-6 max-w-5xl mx-auto"></div>
 
   <script>
     async function loadMatches() {
@@ -17,30 +37,29 @@
       const container = document.getElementById('matches');
 
       matches.forEach(match => {
-        const resultColor = match.win ? 'text-green-600' : 'text-red-600';
-        const resultText = match.win ? 'Win' : 'Loss';
-
         const card = document.createElement('div');
-        card.className = 'bg-white rounded-2xl shadow p-4 border';
+        const isWin = match.win;
+        const resultClass = isWin ? 'card-win' : 'card-loss';
+        const resultText = isWin ? 'Victory' : 'Defeat';
+        const resultColor = isWin ? 'text-green-400' : 'text-red-400';
+
+        card.className = `rounded-xl p-4 border neon-border ${resultClass} transition transform hover:-translate-y-1 hover:scale-105 duration-300`;
 
         card.innerHTML = `
-          <h2 class="text-xl font-semibold mb-2">Match ID: ${match.match_id}</h2>
-          <p class="mb-1 text-sm text-gray-600">${match.match_date}</p>
-          <p class="mb-1"><strong>Teams:</strong> ${match.radiant_team} vs ${match.dire_team}</p>
-          <p class="mb-1"><strong>Player:</strong> ${match.player_name}</p>
-          <p class="mb-1"><span class="${resultColor} font-bold">${resultText}</span> | KDA: ${match.kda.kills}/${match.kda.deaths}/${match.kda.assists}</p>
-
-          <p class="mb-1"><strong>Items:</strong><br>
-            ${match.items.map(item => item !== "Unknown" ? `<img src="https://cdn.cloudflare.steamstatic.com/apps/dota2/images/items/${item.toLowerCase().replaceAll(' ', '_')}_lg.png" alt="${item}" title="${item}" class="inline-block w-10 h-10 m-1">` : '').join('')}
-          </p>
-
-          <p class="mb-1"><strong>Backpack:</strong><br>
-            ${match.backpack.map(item => item !== "Unknown" ? `<img src="https://cdn.cloudflare.steamstatic.com/apps/dota2/images/items/${item.toLowerCase().replaceAll(' ', '_')}_lg.png" alt="${item}" title="${item}" class="inline-block w-8 h-8 m-1 opacity-75">` : '').join('')}
-          </p>
-
-          <p class="mb-1"><strong>Neutral Item:</strong><br>
-            ${match.neutral_item !== "Unknown" ? `<img src="https://cdn.cloudflare.steamstatic.com/apps/dota2/images/items/${match.neutral_item.toLowerCase().replaceAll(' ', '_')}_lg.png" alt="${match.neutral_item}" title="${match.neutral_item}" class="inline-block w-10 h-10 m-1">` : ''}
-          </p>
+          <div class="flex items-center mb-4">
+            <img src="https://cdn.cloudflare.steamstatic.com/apps/dota2/images/heroes/bristleback_full.png" alt="Bristleback" class="w-14 h-14 mr-4 rounded-lg" />
+            <div>
+              <h2 class="text-xl font-bold text-white">Match ID: ${match.match_id}</h2>
+              <p class="text-sm text-gray-400">${match.match_date}</p>
+              <p class="text-sm text-gray-400">${match.radiant_team} vs ${match.dire_team}</p>
+              <p class="text-sm text-gray-400">Player: ${match.player_name}</p>
+            </div>
+          </div>
+          <p class="text-lg font-semibold ${resultColor} mb-2">${resultText}</p>
+          <p class="text-gray-300 mb-1">KDA: <span class="text-white">${match.kda.kills}/${match.kda.deaths}/${match.kda.assists}</span></p>
+          <p class="text-gray-300 mb-1">Items: <span class="text-white">${match.items.join(', ')}</span></p>
+          <p class="text-gray-300 mb-1">Backpack: <span class="text-white">${match.backpack.join(', ')}</span></p>
+          <p class="text-gray-300 mb-1">Neutral Item: <span class="text-white">${match.neutral_item}</span></p>
         `;
 
         container.appendChild(card);
