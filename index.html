@@ -62,18 +62,17 @@
         return (items || [])
           .filter(i => i && typeof i === 'string' && i !== 'recipe')
           .map(item => {
-           const safeItem = item.toLowerCase().replace(/\s+/g, "_"); // for image lookup
-           const timestampKey = item.toLowerCase().replace(/\s+/g, "_"); // for timestamp lookup
-           const minute = timestamps[timestampKey] ?? null;
-           return `
-            <div class="item-container" title="${item}">
-             <img src="https://cdn.cloudflare.steamstatic.com/apps/dota2/images/items/${safeItem}_lg.png" alt="${item}" />
-            ${minute !== null ? `<div class="timestamp-badge">${minute}m</div>` : ''}
-            </div>
-          `;
-        });
-};
-
+            const safeItem = item.toLowerCase().replace(/\s+/g, "_");
+            const key = item.toLowerCase().replace(/\s+/g, "_");
+            const minute = timestamps[key] ?? null;
+            return `
+              <div class="item-container" title="${item}">
+                <img src="https://cdn.cloudflare.steamstatic.com/apps/dota2/images/items/${safeItem}_lg.png" alt="${item}" />
+                ${minute !== null ? `<div class="timestamp-badge">${minute}m</div>` : ''}
+              </div>
+            `;
+          });
+      };
 
       matches.forEach(match => {
         const isWin = match.win;
@@ -84,9 +83,20 @@
         const itemGrid = formatItems(match.items, match.item_timestamps);
         while (itemGrid.length < 6) itemGrid.push('<div class="w-12 h-12"></div>');
 
-        const neutralItem = match.neutral_item && typeof match.neutral_item === 'string'
-          ? `<img src="https://cdn.cloudflare.steamstatic.com/apps/dota2/images/items/${match.neutral_item.toLowerCase().replace(/\s+/g, "_")}_lg.png" alt="${match.neutral_item}" title="${match.neutral_item}" class="w-8 h-8 mt-2" />`
-          : '<span class="text-gray-500 text-sm">None</span>';
+        let aghsImg = "none.png";
+        if (match.bought_aghs && match.bought_shard) {
+          aghsImg = "aghs_shard_both.png";
+        } else if (match.bought_aghs && !match.bought_shard) {
+          aghsImg = "aghs_only.png";
+        } else if (!match.bought_aghs && match.bought_shard) {
+          aghsImg = "shard_only.png";
+        }
+
+        const aghsImageTag = `<img src="assets/${aghsImg}" alt="Aghanim's Purchase Status" class="w-9 h-9" />`;
+
+        const neutralItemTag = match.neutral_item && typeof match.neutral_item === 'string'
+          ? `<img src="https://cdn.cloudflare.steamstatic.com/apps/dota2/images/items/${match.neutral_item.toLowerCase().replace(/\s+/g, "_")}_lg.png" alt="${match.neutral_item}" title="${match.neutral_item}" class="w-9 h-9" />`
+          : `<span class="text-xs text-gray-500">${match.neutral_item || 'None'}</span>`;
 
         const card = document.createElement('div');
         card.className = `grid grid-cols-2 gap-4 rounded-xl p-4 border neon-border ${resultClass} transition transform hover:-translate-y-1 hover:scale-105 duration-300`;
@@ -107,12 +117,12 @@
           </div>
 
           <div class="flex flex-col items-center">
-            <div class="grid grid-cols-3 gap-2 place-items-center">
+            <div class="grid grid-cols-3 gap-2 mb-3">
               ${itemGrid.join("")}
             </div>
-            <div class="mt-3">
-              <p class="text-xs text-gray-400 text-center mb-1">Neutral Item</p>
-              ${neutralItem}
+            <div class="flex gap-4 mt-3 ">
+              ${aghsImageTag}
+              ${neutralItemTag}
             </div>
           </div>
         `;
