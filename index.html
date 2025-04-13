@@ -55,7 +55,7 @@
             </div>
 
             <!-- Content -->
-            <div class="bg-[#173054] grid grid-cols-3 gap-4 p-4 text-sm md:text-base">
+            <div class="bg-[#173054] grid grid-cols-[1fr_1.3fr_1fr] gap-4 p-4 text-sm md:text-base">
               <!-- Player Info -->
               <div class="flex flex-col items-center justify-center space-y-2">
                 <div class="text-lg font-semibold">${match.player_name}</div>
@@ -64,7 +64,7 @@
               </div>
 
               <!-- KDA and Match Info -->
-              <div class="flex flex-col items-start justify-center space-y-1 text-center">
+              <div class="flex flex-col items-start justify-center space-y-1 text-left ml-[43%]">
                 <div class="text-lg font-bold">${match.kda.kills} / ${match.kda.deaths} / ${match.kda.assists}</div>
                 <div>${match.match_date}</div>
                 <div>${match.radiant_team || "Radiant"} vs ${match.dire_team || "Dire"}</div>
