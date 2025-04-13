@@ -36,13 +36,22 @@
       const matches = await res.json();
       const container = document.getElementById('matches');
 
+      const formatItems = (items) => {
+        return (items || []).filter(i =>
+          i && typeof i === 'string' && i !== 'recipe'
+        ).map(item => {
+          const safeItem = item.toLowerCase().replace(/\s+/g, "_");
+          return `<img src="https://cdn.cloudflare.steamstatic.com/apps/dota2/images/items/${safeItem}_lg.png" alt="${item}" class="w-8 h-8" />`;
+        }).join('');
+      };
+
       matches.forEach(match => {
-        const card = document.createElement('div');
         const isWin = match.win;
         const resultClass = isWin ? 'card-win' : 'card-loss';
         const resultText = isWin ? 'Victory' : 'Defeat';
         const resultColor = isWin ? 'text-green-400' : 'text-red-400';
 
+        const card = document.createElement('div');
         card.className = `rounded-xl p-4 border neon-border ${resultClass} transition transform hover:-translate-y-1 hover:scale-105 duration-300`;
 
         card.innerHTML = `
@@ -55,11 +64,25 @@
               <p class="text-sm text-gray-400">Player: ${match.player_name}</p>
             </div>
           </div>
+
           <p class="text-lg font-semibold ${resultColor} mb-2">${resultText}</p>
           <p class="text-gray-300 mb-1">KDA: <span class="text-white">${match.kda.kills}/${match.kda.deaths}/${match.kda.assists}</span></p>
-          <p class="text-gray-300 mb-1">Items: <span class="text-white">${match.items.join(', ')}</span></p>
-          <p class="text-gray-300 mb-1">Backpack: <span class="text-white">${match.backpack.join(', ')}</span></p>
-          <p class="text-gray-300 mb-1">Neutral Item: <span class="text-white">${match.neutral_item}</span></p>
+
+          <div class="mb-1">
+            <p class="text-gray-300">Items:</p>
+            <div class="flex flex-wrap gap-1 mt-1">
+              ${formatItems(match.items)}
+            </div>
+          </div>
+
+          <div class="mb-1">
+            <p class="text-gray-300">Neutral Item:</p>
+            <div class="flex flex-wrap gap-1 mt-1">
+              ${match.neutral_item && typeof match.neutral_item === 'string' ? `
+                <img src="https://cdn.cloudflare.steamstatic.com/apps/dota2/images/items/${match.neutral_item.toLowerCase().replace(/\s+/g, "_")}_lg.png" alt="${match.neutral_item}" class="w-8 h-8" />
+              ` : '<span class="text-gray-500 text-sm">None</span>'}
+            </div>
+          </div>
         `;
 
         container.appendChild(card);
