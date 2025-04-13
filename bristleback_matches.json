@@ -1,5 +1,122 @@
 [
   {
+    "match_id": 8253141174,
+    "match_date": "2025-04-13 10:47 UTC",
+    "radiant_team": null,
+    "dire_team": null,
+    "player_name": "Jackal",
+    "items": [
+      "Heavens Halberd",
+      "Magic Wand",
+      "Nullifier",
+      "Power Treads",
+      "Null Talisman",
+      "Lotus Orb"
+    ],
+    "backpack": [
+      "Unknown",
+      "Unknown",
+      "Unknown"
+    ],
+    "neutral_item": "Essence Ring",
+    "win": true,
+    "kda": {
+      "kills": 7,
+      "deaths": 7,
+      "assists": 19
+    },
+    "item_timestamps": {
+      "magic_wand": 0,
+      "branches": 0,
+      "tango": 0,
+      "flask": 0,
+      "ring_of_protection": 1,
+      "circlet": 1,
+      "mantle": 2,
+      "null_talisman": 3,
+      "ring_of_health": 25,
+      "vitality_booster": 7,
+      "vanguard": 8,
+      "boots": 9,
+      "belt_of_strength": 10,
+      "gloves": 11,
+      "tpscroll": 25,
+      "power_treads": 12,
+      "aghanims_shard": 15,
+      "void_stone": 17,
+      "pers": 17,
+      "platemail": 19,
+      "energy_booster": 20,
+      "lotus_orb": 20,
+      "crown": 21,
+      "heavens_halberd": 22,
+      "helm_of_iron_will": 25,
+      "nullifier": 28,
+      "relic": 28
+    }
+  },
+  {
+    "match_id": 8253095069,
+    "match_date": "2025-04-13 10:15 UTC",
+    "radiant_team": "Virtus.pro",
+    "dire_team": "L1GA TEAM",
+    "player_name": "Daxao",
+    "items": [
+      "Power Treads",
+      "Lotus Orb",
+      "Blade Mail",
+      "Crimson Guard",
+      "Black King Bar",
+      "Soul Ring"
+    ],
+    "backpack": [
+      "Dust",
+      "Roshans Banner",
+      "Unknown"
+    ],
+    "neutral_item": "Essence Ring",
+    "win": true,
+    "kda": {
+      "kills": 5,
+      "deaths": 2,
+      "assists": 13
+    },
+    "item_timestamps": {
+      "gauntlets": 5,
+      "enchanted_mango": 2,
+      "tango": 0,
+      "circlet": 2,
+      "ward_sentry": 0,
+      "bracer": 3,
+      "flask": 9,
+      "ring_of_protection": 5,
+      "soul_ring": 5,
+      "boots": 6,
+      "broadsword": 12,
+      "chainmail": 12,
+      "blade_mail": 13,
+      "ring_of_health": 24,
+      "vitality_booster": 16,
+      "vanguard": 17,
+      "helm_of_iron_will": 18,
+      "crimson_guard": 19,
+      "tpscroll": 31,
+      "void_stone": 22,
+      "dust": 22,
+      "pers": 24,
+      "platemail": 26,
+      "energy_booster": 27,
+      "lotus_orb": 27,
+      "aghanims_shard": 30,
+      "gloves": 31,
+      "belt_of_strength": 31,
+      "power_treads": 31,
+      "ogre_axe": 35,
+      "mithril_hammer": 35,
+      "black_king_bar": 35
+    }
+  },
+  {
     "match_id": 8252515077,
     "match_date": "2025-04-12 22:09 UTC",
     "radiant_team": "Tundra Esports",
@@ -24,6 +141,42 @@
       "kills": 3,
       "deaths": 5,
       "assists": 2
+    },
+    "item_timestamps": {
+      "ward_observer": 5,
+      "branches": 0,
+      "boots": 3,
+      "tango": 0,
+      "bottle": 1,
+      "magic_stick": 1,
+      "enchanted_mango": 2,
+      "magic_wand": 2,
+      "wind_lace": 3,
+      "gloves": 4,
+      "belt_of_strength": 35,
+      "ward_sentry": 5,
+      "power_treads": 5,
+      "ogre_axe": 35,
+      "tpscroll": 21,
+      "point_booster": 9,
+      "staff_of_wizardry": 11,
+      "blade_of_alacrity": 33,
+      "ultimate_scepter": 13,
+      "aghanims_shard": 16,
+      "broadsword": 20,
+      "chainmail": 20,
+      "blade_mail": 21,
+      "clarity": 21,
+      "platemail": 24,
+      "energy_booster": 25,
+      "ring_of_health": 28,
+      "pers": 29,
+      "void_stone": 29,
+      "lotus_orb": 30,
+      "boots_of_elves": 33,
+      "yasha": 33,
+      "sange": 36,
+      "sange_and_yasha": 36
     }
   },
   {
@@ -51,6 +204,40 @@
       "kills": 6,
       "deaths": 6,
       "assists": 6
+    },
+    "item_timestamps": {
+      "branches": 0,
+      "magic_wand": 0,
+      "tango": 0,
+      "circlet": 2,
+      "gauntlets": 3,
+      "flask": 3,
+      "bracer": 4,
+      "mantle": 5,
+      "null_talisman": 6,
+      "belt_of_strength": 15,
+      "boots": 7,
+      "gloves": 8,
+      "power_treads": 8,
+      "chainmail": 9,
+      "broadsword": 11,
+      "blade_mail": 12,
+      "ogre_axe": 34,
+      "sange": 16,
+      "blade_of_alacrity": 19,
+      "boots_of_elves": 19,
+      "yasha": 19,
+      "sange_and_yasha": 19,
+      "aghanims_shard": 22,
+      "ring_of_health": 24,
+      "pers": 24,
+      "void_stone": 24,
+      "tpscroll": 26,
+      "platemail": 28,
+      "energy_booster": 28,
+      "lotus_orb": 28,
+      "mithril_hammer": 34,
+      "black_king_bar": 34
     }
   },
   {
@@ -78,60 +265,31 @@
       "kills": 1,
       "deaths": 13,
       "assists": 6
-    }
-  },
-  {
-    "match_id": 8251903913,
-    "match_date": "2025-04-12 14:09 UTC",
-    "radiant_team": "Zero Tenacity",
-    "dire_team": "Team Lynx",
-    "player_name": "nefrit",
-    "items": [
-      "Pipe",
-      "Boots",
-      "Crimson Guard",
-      "Ogre Axe",
-      "Soul Ring",
-      "Sange And Yasha"
-    ],
-    "backpack": [
-      "Flask",
-      "Unknown",
-      "Unknown"
-    ],
-    "neutral_item": "Ninja Gear",
-    "win": true,
-    "kda": {
-      "kills": 1,
-      "deaths": 1,
-      "assists": 10
-    }
-  },
-  {
-    "match_id": 8251679917,
-    "match_date": "2025-04-12 11:44 UTC",
-    "radiant_team": "Team Lynx",
-    "dire_team": "Bikini Bottom",
-    "player_name": "StoneBank",
-    "items": [
-      "Power Treads",
-      "Heavens Halberd",
-      "Black King Bar",
-      "Gem",
-      "Sange And Yasha",
-      "Magic Wand"
-    ],
-    "backpack": [
-      "Null Talisman",
-      "Unknown",
-      "Unknown"
-    ],
-    "neutral_item": "Gunpowder Gauntlets",
-    "win": true,
-    "kda": {
-      "kills": 3,
-      "deaths": 4,
-      "assists": 15
+    },
+    "item_timestamps": {
+      "enchanted_mango": 2,
+      "branches": 0,
+      "magic_stick": 0,
+      "circlet": 4,
+      "tango": 2,
+      "mantle": 1,
+      "null_talisman": 3,
+      "magic_wand": 3,
+      "flask": 3,
+      "gauntlets": 4,
+      "bracer": 4,
+      "boots": 5,
+      "belt_of_strength": 18,
+      "gloves": 7,
+      "power_treads": 7,
+      "chainmail": 9,
+      "broadsword": 12,
+      "blade_mail": 13,
+      "smoke_of_deceit": 13,
+      "tpscroll": 14,
+      "ogre_axe": 16,
+      "sange": 19,
+      "aghanims_shard": 24
     }
   }
 ]

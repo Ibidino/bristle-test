@@ -93,6 +93,16 @@ def get_bristleback_games(limit=5):
                     "assists": player.get("assists", 0)
                 }
 
+                # Get item purchase timestamps
+                purchase_log = player.get("purchase_log", [])
+                item_timestamps = {}
+                for entry in purchase_log:
+                    item_name = entry.get("key")
+                    time_sec = entry.get("time")
+                    if item_name and time_sec is not None:
+                        minute = max(0, time_sec // 60)
+                        item_timestamps[item_name] = minute
+
                 account_id = player.get("account_id")
                 player_name = get_player_name(account_id)
                 time.sleep(0.5)  # avoid hitting OpenDota's rate limit
@@ -107,7 +117,8 @@ def get_bristleback_games(limit=5):
                     "backpack": backpack,
                     "neutral_item": neutral_item,
                     "win": win,
-                    "kda": kda
+                    "kda": kda,
+                    "item_timestamps": item_timestamps
                 }
 
                 bristleback_games.append(game_info)
