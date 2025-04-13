@@ -56,7 +56,9 @@
       "buckler": 26,
       "assault": 28,
       "hyperstone": 28
-    }
+    },
+    "bought_aghs": false,
+    "bought_shard": true
   },
   {
     "match_id": 8253141174,
@@ -112,7 +114,9 @@
       "helm_of_iron_will": 25,
       "nullifier": 28,
       "relic": 28
-    }
+    },
+    "bought_aghs": false,
+    "bought_shard": true
   },
   {
     "match_id": 8253095069,
@@ -173,7 +177,9 @@
       "ogre_axe": 35,
       "mithril_hammer": 35,
       "black_king_bar": 35
-    }
+    },
+    "bought_aghs": false,
+    "bought_shard": true
   },
   {
     "match_id": 8252515077,
@@ -236,7 +242,9 @@
       "yasha": 33,
       "sange": 36,
       "sange_and_yasha": 36
-    }
+    },
+    "bought_aghs": false,
+    "bought_shard": true
   },
   {
     "match_id": 8252155975,
@@ -297,6 +305,8 @@
       "lotus_orb": 28,
       "mithril_hammer": 34,
       "black_king_bar": 34
-    }
+    },
+    "bought_aghs": false,
+    "bought_shard": true
   }
 ]
