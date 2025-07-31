@@ -1,5 +1,61 @@
 [
   {
+    "match_id": 8396172800,
+    "match_date": "2025-07-30 22:15 UTC",
+    "radiant_team": "Night Vision",
+    "dire_team": "HELLBEAR HEROES",
+    "player_name": "NV.Volcanus",
+    "items": [
+      "Power Treads",
+      "Pipe",
+      "Magic Wand",
+      "Crimson Guard",
+      "Ogre Axe",
+      "Null Talisman"
+    ],
+    "backpack": [
+      "Unknown",
+      "Unknown",
+      "Unknown"
+    ],
+    "neutral_item": "Gale Guard",
+    "win": false,
+    "kda": {
+      "kills": 2,
+      "deaths": 7,
+      "assists": 9
+    },
+    "item_timestamps": {
+      "quelling_blade": 0,
+      "tango": 0,
+      "magic_stick": 0,
+      "branches": 10,
+      "circlet": 0,
+      "mantle": 1,
+      "null_talisman": 2,
+      "ring_of_health": 3,
+      "vitality_booster": 5,
+      "vanguard": 5,
+      "boots": 7,
+      "gloves": 8,
+      "belt_of_strength": 8,
+      "power_treads": 9,
+      "helm_of_iron_will": 12,
+      "magic_wand": 13,
+      "crimson_guard": 13,
+      "aghanims_shard": 16,
+      "cloak": 18,
+      "ring_of_regen": 20,
+      "headdress": 20,
+      "ring_of_tarrasque": 22,
+      "pipe": 24,
+      "tpscroll": 26,
+      "ogre_axe": 28
+    },
+    "bought_aghs": false,
+    "bought_shard": true
+  },
+  {
     "match_id": 8394961741,
     "match_date": "2025-07-30 01:14 UTC",
     "radiant_team": "Agressiv Style",
@@ -239,61 +295,6 @@
       "ogre_axe": 25,
       "mithril_hammer": 18,
       "black_king_bar": 22
-    },
-    "bought_aghs": false,
-    "bought_shard": true
-  },
-  {
-    "match_id": 8393374209,
-    "match_date": "2025-07-28 19:52 UTC",
-    "radiant_team": null,
-    "dire_team": "Miau miau miau",
-    "player_name": "\u263e Don't Worry",
-    "items": [
-      "Black King Bar",
-      "Glimmer Cape",
-      "Dust",
-      "Magic Wand",
-      "Bracer",
-      "Tranquil Boots"
-    ],
-    "backpack": [
-      "Smoke Of Deceit",
-      "Ward Sentry",
-      "Unknown"
-    ],
-    "neutral_item": "Psychic Headband",
-    "win": false,
-    "kda": {
-      "kills": 4,
-      "deaths": 12,
-      "assists": 3
-    },
-    "item_timestamps": {
-      "tango": 0,
-      "blood_grenade": 20,
-      "ward_sentry": 28,
-      "magic_stick": 0,
-      "enchanted_mango": 0,
-      "branches": 8,
-      "boots": 3,
-      "ward_observer": 28,
-      "wind_lace": 5,
-      "tranquil_boots": 5,
-      "ring_of_regen": 5,
-      "magic_wand": 8,
-      "circlet": 10,
-      "gauntlets": 10,
-      "bracer": 10,
-      "smoke_of_deceit": 33,
-      "cloak": 16,
-      "shadow_amulet": 16,
-      "glimmer_cape": 18,
-      "aghanims_shard": 25,
-      "dust": 33,
-      "ogre_axe": 33,
-      "mithril_hammer": 33,
-      "black_king_bar": 33
     },
     "bought_aghs": false,
     "bought_shard": true
