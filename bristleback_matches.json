@@ -1,5 +1,56 @@
 [
   {
+    "match_id": 8402739857,
+    "match_date": "2025-08-04 17:27 UTC",
+    "radiant_team": "Alpine Draft",
+    "dire_team": "Vanta Core",
+    "player_name": "Unknown",
+    "items": [
+      "Magic Wand",
+      "Soul Ring",
+      "Heavens Halberd",
+      "Power Treads",
+      "Bracer",
+      "Ogre Axe"
+    ],
+    "backpack": [
+      "Unknown",
+      "Unknown",
+      "Unknown"
+    ],
+    "neutral_item": "Chipped Vest",
+    "win": false,
+    "kda": {
+      "kills": 1,
+      "deaths": 4,
+      "assists": 5
+    },
+    "item_timestamps": {
+      "tango": 0,
+      "gauntlets": 10,
+      "magic_stick": 0,
+      "branches": 0,
+      "magic_wand": 0,
+      "circlet": 1,
+      "bracer": 2,
+      "ring_of_health": 4,
+      "vanguard": 7,
+      "vitality_booster": 7,
+      "boots": 8,
+      "clarity": 12,
+      "ring_of_protection": 8,
+      "soul_ring": 11,
+      "gloves": 11,
+      "belt_of_strength": 11,
+      "power_treads": 12,
+      "crown": 12,
+      "heavens_halberd": 13,
+      "ogre_axe": 15
+    },
+    "bought_aghs": false,
+    "bought_shard": false
+  },
+  {
     "match_id": 8401519458,
     "match_date": "2025-08-03 19:00 UTC",
     "radiant_team": "\u0410\u0433\u0435\u043d\u0442\u044b 322",
@@ -237,76 +288,6 @@
       "mystic_staff": 22,
       "sheepstick": 22,
       "ring_of_tarrasque": 26
-    },
-    "bought_aghs": false,
-    "bought_shard": true
-  },
-  {
-    "match_id": 8396360258,
-    "match_date": "2025-07-31 03:46 UTC",
-    "radiant_team": "Tundra Esports",
-    "dire_team": "BB Team",
-    "player_name": "33",
-    "items": [
-      "Sange And Yasha",
-      "Pipe",
-      "Power Treads",
-      "Lotus Orb",
-      "Blade Mail",
-      "Platemail"
-    ],
-    "backpack": [
-      "Famango",
-      "Unknown",
-      "Unknown"
-    ],
-    "neutral_item": "Whisper Of The Dread",
-    "win": false,
-    "kda": {
-      "kills": 2,
-      "deaths": 5,
-      "assists": 4
-    },
-    "item_timestamps": {
-      "circlet": 0,
-      "branches": 18,
-      "enchanted_mango": 0,
-      "tango": 2,
-      "gauntlets": 1,
-      "bracer": 1,
-      "mantle": 1,
-      "flask": 2,
-      "null_talisman": 2,
-      "boots": 3,
-      "wind_lace": 4,
-      "clarity": 6,
-      "gloves": 6,
-      "belt_of_strength": 24,
-      "power_treads": 7,
-      "void_stone": 8,
-      "ring_of_health": 8,
-      "pers": 9,
-      "broadsword": 11,
-      "chainmail": 11,
-      "blade_mail": 11,
-      "aghanims_shard": 15,
-      "platemail": 33,
-      "energy_booster": 17,
-      "lotus_orb": 18,
-      "magic_stick": 18,
-      "magic_wand": 18,
-      "tpscroll": 25,
-      "cloak": 21,
-      "ring_of_regen": 21,
-      "headdress": 21,
-      "ring_of_tarrasque": 22,
-      "pipe": 22,
-      "ogre_axe": 24,
-      "sange": 25,
-      "blade_of_alacrity": 28,
-      "boots_of_elves": 28,
-      "yasha": 29,
-      "sange_and_yasha": 29
     },
     "bought_aghs": false,
     "bought_shard": true
