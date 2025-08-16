@@ -1,5 +1,56 @@
 [
   {
+    "match_id": 8417917128,
+    "match_date": "2025-08-15 12:01 UTC",
+    "radiant_team": "Night Force",
+    "dire_team": "Lunar Vibes",
+    "player_name": "LV.Ashreaver",
+    "items": [
+      "Power Treads",
+      "Quelling Blade",
+      "Pipe",
+      "Crimson Guard",
+      "Unknown",
+      "Magic Wand"
+    ],
+    "backpack": [
+      "Unknown",
+      "Unknown",
+      "Unknown"
+    ],
+    "neutral_item": "Poor Mans Shield",
+    "win": false,
+    "kda": {
+      "kills": 2,
+      "deaths": 6,
+      "assists": 4
+    },
+    "item_timestamps": {
+      "quelling_blade": 0,
+      "tango": 0,
+      "branches": 0,
+      "magic_stick": 0,
+      "ring_of_health": 1,
+      "vitality_booster": 4,
+      "vanguard": 4,
+      "magic_wand": 5,
+      "boots": 6,
+      "gloves": 8,
+      "belt_of_strength": 8,
+      "power_treads": 8,
+      "ring_of_tarrasque": 11,
+      "cloak": 12,
+      "headdress": 15,
+      "ring_of_regen": 15,
+      "pipe": 16,
+      "aghanims_shard": 18,
+      "helm_of_iron_will": 20,
+      "crimson_guard": 23
+    },
+    "bought_aghs": false,
+    "bought_shard": true
+  },
+  {
     "match_id": 8416010188,
     "match_date": "2025-08-13 22:55 UTC",
     "radiant_team": "CrimsonSky",
@@ -216,66 +267,6 @@
       "pers": 10,
       "aghanims_shard": 15,
       "magic_wand": 16
-    },
-    "bought_aghs": false,
-    "bought_shard": true
-  },
-  {
-    "match_id": 8413745253,
-    "match_date": "2025-08-12 10:13 UTC",
-    "radiant_team": "Riftwalkers",
-    "dire_team": "Foxy gaming",
-    "player_name": "CreepSlayer",
-    "items": [
-      "Ultimate Scepter",
-      "Power Treads",
-      "Soul Ring",
-      "Lotus Orb",
-      "Vanguard",
-      "Magic Wand"
-    ],
-    "backpack": [
-      "Unknown",
-      "Unknown",
-      "Unknown"
-    ],
-    "neutral_item": "Gale Guard",
-    "win": true,
-    "kda": {
-      "kills": 5,
-      "deaths": 5,
-      "assists": 8
-    },
-    "item_timestamps": {
-      "enchanted_mango": 0,
-      "tango": 0,
-      "ring_of_protection": 0,
-      "quelling_blade": 0,
-      "branches": 0,
-      "boots": 3,
-      "gauntlets": 5,
-      "soul_ring": 5,
-      "gloves": 7,
-      "power_treads": 7,
-      "belt_of_strength": 7,
-      "ring_of_health": 23,
-      "magic_stick": 9,
-      "ward_sentry": 10,
-      "magic_wand": 11,
-      "vanguard": 13,
-      "vitality_booster": 13,
-      "ogre_axe": 16,
-      "point_booster": 16,
-      "staff_of_wizardry": 19,
-      "blade_of_alacrity": 19,
-      "ultimate_scepter": 19,
-      "aghanims_shard": 20,
-      "pers": 23,
-      "void_stone": 23,
-      "platemail": 25,
-      "tpscroll": 27,
-      "energy_booster": 27,
-      "lotus_orb": 27
     },
     "bought_aghs": false,
     "bought_shard": true
