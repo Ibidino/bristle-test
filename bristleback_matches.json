@@ -1,5 +1,72 @@
 [
   {
+    "match_id": 8444935486,
+    "match_date": "2025-09-03 03:59 UTC",
+    "radiant_team": "The MongolZ",
+    "dire_team": "REKONIX",
+    "player_name": "Fbz",
+    "items": [
+      "Heavens Halberd",
+      "Black King Bar",
+      "Assault",
+      "Power Treads",
+      "Sange And Yasha",
+      "Reaver"
+    ],
+    "backpack": [
+      "Dust",
+      "Unknown",
+      "Unknown"
+    ],
+    "neutral_item": "Giant Maul",
+    "win": false,
+    "kda": {
+      "kills": 5,
+      "deaths": 6,
+      "assists": 16
+    },
+    "item_timestamps": {
+      "branches": 0,
+      "magic_wand": 0,
+      "tango": 0,
+      "circlet": 2,
+      "mantle": 2,
+      "null_talisman": 2,
+      "belt_of_strength": 12,
+      "boots": 4,
+      "flask": 4,
+      "gloves": 6,
+      "power_treads": 6,
+      "ring_of_health": 7,
+      "vitality_booster": 9,
+      "vanguard": 9,
+      "clarity": 17,
+      "infused_raindrop": 9,
+      "crown": 11,
+      "heavens_halberd": 11,
+      "ogre_axe": 22,
+      "sange": 13,
+      "blade_of_alacrity": 17,
+      "boots_of_elves": 17,
+      "yasha": 17,
+      "tpscroll": 24,
+      "sange_and_yasha": 17,
+      "aghanims_shard": 19,
+      "mithril_hammer": 22,
+      "black_king_bar": 24,
+      "platemail": 26,
+      "ring_of_protection": 30,
+      "buckler": 30,
+      "hyperstone": 30,
+      "assault": 30,
+      "dust": 39,
+      "reaver": 40,
+      "ring_of_tarrasque": 40
+    },
+    "bought_aghs": false,
+    "bought_shard": true
+  },
+  {
     "match_id": 8444899992,
     "match_date": "2025-09-03 03:01 UTC",
     "radiant_team": "REKONIX",
@@ -237,57 +304,6 @@
       "ring_of_tarrasque": 35,
       "heart": 35,
       "reaver": 35
-    },
-    "bought_aghs": false,
-    "bought_shard": true
-  },
-  {
-    "match_id": 8444159395,
-    "match_date": "2025-09-02 13:48 UTC",
-    "radiant_team": null,
-    "dire_team": null,
-    "player_name": "Huai",
-    "items": [
-      "Power Treads",
-      "Magic Wand",
-      "Blade Mail",
-      "Platemail",
-      "Bracer",
-      "Quelling Blade"
-    ],
-    "backpack": [
-      "Unknown",
-      "Unknown",
-      "Unknown"
-    ],
-    "neutral_item": "Essence Ring",
-    "win": false,
-    "kda": {
-      "kills": 3,
-      "deaths": 8,
-      "assists": 3
-    },
-    "item_timestamps": {
-      "gauntlets": 0,
-      "branches": 0,
-      "quelling_blade": 0,
-      "circlet": 2,
-      "tango": 0,
-      "magic_stick": 0,
-      "bracer": 1,
-      "mantle": 2,
-      "null_talisman": 2,
-      "boots": 4,
-      "magic_wand": 4,
-      "gloves": 5,
-      "belt_of_strength": 5,
-      "infused_raindrop": 7,
-      "power_treads": 7,
-      "chainmail": 8,
-      "broadsword": 10,
-      "blade_mail": 13,
-      "aghanims_shard": 17,
-      "platemail": 21
     },
     "bought_aghs": false,
     "bought_shard": true
