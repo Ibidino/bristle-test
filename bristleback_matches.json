@@ -1,5 +1,116 @@
 [
   {
+    "match_id": 8598188237,
+    "match_date": "2025-12-10 00:25 UTC",
+    "radiant_team": "HolyTeam",
+    "dire_team": "Silent killer",
+    "player_name": "sK.itras",
+    "items": [
+      "Black King Bar",
+      "Magic Wand",
+      "Sange And Yasha",
+      "Blade Mail",
+      "Bracer",
+      "Power Treads"
+    ],
+    "backpack": [
+      "Unknown",
+      "Unknown",
+      "Unknown"
+    ],
+    "neutral_item": "Serrated Shiv",
+    "win": true,
+    "kda": {
+      "kills": 8,
+      "deaths": 4,
+      "assists": 15
+    },
+    "item_timestamps": {
+      "branches": 0,
+      "magic_stick": 0,
+      "tango": 0,
+      "circlet": 0,
+      "quelling_blade": 0,
+      "gauntlets": 1,
+      "bracer": 2,
+      "magic_wand": 3,
+      "boots": 3,
+      "clarity": 4,
+      "gloves": 6,
+      "belt_of_strength": 18,
+      "flask": 6,
+      "power_treads": 6,
+      "tpscroll": 31,
+      "chainmail": 8,
+      "broadsword": 11,
+      "blade_mail": 12,
+      "ogre_axe": 28,
+      "sange": 19,
+      "blade_of_alacrity": 21,
+      "boots_of_elves": 21,
+      "yasha": 21,
+      "sange_and_yasha": 21,
+      "aghanims_shard": 24,
+      "mithril_hammer": 30,
+      "black_king_bar": 31
+    },
+    "bought_aghs": false,
+    "bought_shard": true
+  },
+  {
+    "match_id": 8597188680,
+    "match_date": "2025-12-09 11:00 UTC",
+    "radiant_team": "Lunar Vibes",
+    "dire_team": "Night Force",
+    "player_name": "Marling",
+    "items": [
+      "Sange And Yasha",
+      "Power Treads",
+      "Ring Of Protection",
+      "Blade Mail",
+      "Bracer",
+      "Magic Wand"
+    ],
+    "backpack": [
+      "Unknown",
+      "Unknown",
+      "Unknown"
+    ],
+    "neutral_item": "Gale Guard",
+    "win": true,
+    "kda": {
+      "kills": 3,
+      "deaths": 11,
+      "assists": 15
+    },
+    "item_timestamps": {
+      "tango": 0,
+      "branches": 11,
+      "ring_of_protection": 0,
+      "circlet": 0,
+      "boots": 3,
+      "magic_stick": 4,
+      "gauntlets": 6,
+      "bracer": 6,
+      "gloves": 8,
+      "power_treads": 8,
+      "belt_of_strength": 18,
+      "chainmail": 11,
+      "magic_wand": 11,
+      "broadsword": 13,
+      "blade_mail": 15,
+      "ogre_axe": 16,
+      "sange": 18,
+      "aghanims_shard": 21,
+      "blade_of_alacrity": 25,
+      "boots_of_elves": 27,
+      "yasha": 29,
+      "sange_and_yasha": 29
+    },
+    "bought_aghs": false,
+    "bought_shard": true
+  },
+  {
     "match_id": 8596267209,
     "match_date": "2025-12-08 16:29 UTC",
     "radiant_team": "Foxy gaming",
@@ -160,100 +271,6 @@
       "hyperstone": 24,
       "buckler": 27,
       "assault": 29
-    },
-    "bought_aghs": false,
-    "bought_shard": false
-  },
-  {
-    "match_id": 8594923045,
-    "match_date": "2025-12-07 17:30 UTC",
-    "radiant_team": "Team Borisogleb",
-    "dire_team": "Fortnite",
-    "player_name": "Dedredd",
-    "items": [
-      "Quelling Blade",
-      "Blade Mail",
-      "Ring Of Health",
-      "Power Treads",
-      "Unknown",
-      "Magic Wand"
-    ],
-    "backpack": [
-      "Unknown",
-      "Unknown",
-      "Unknown"
-    ],
-    "neutral_item": "Poor Mans Shield",
-    "win": false,
-    "kda": {
-      "kills": 0,
-      "deaths": 7,
-      "assists": 3
-    },
-    "item_timestamps": {
-      "quelling_blade": 0,
-      "tango": 0,
-      "faerie_fire": 0,
-      "branches": 0,
-      "magic_stick": 0,
-      "magic_wand": 0,
-      "boots": 3,
-      "flask": 6,
-      "chainmail": 5,
-      "gloves": 8,
-      "power_treads": 8,
-      "belt_of_strength": 8,
-      "tpscroll": 10,
-      "broadsword": 13,
-      "blade_mail": 14,
-      "ring_of_health": 19
-    },
-    "bought_aghs": false,
-    "bought_shard": false
-  },
-  {
-    "match_id": 8594641918,
-    "match_date": "2025-12-07 14:45 UTC",
-    "radiant_team": null,
-    "dire_team": null,
-    "player_name": "\u963f\u888d\u8868\u53d4",
-    "items": [
-      "Bottle",
-      "Magic Wand",
-      "Quelling Blade",
-      "Vanguard",
-      "Broadsword",
-      "Phase Boots"
-    ],
-    "backpack": [
-      "Unknown",
-      "Unknown",
-      "Unknown"
-    ],
-    "neutral_item": "Poor Mans Shield",
-    "win": false,
-    "kda": {
-      "kills": 1,
-      "deaths": 7,
-      "assists": 0
-    },
-    "item_timestamps": {
-      "branches": 6,
-      "ward_observer": 0,
-      "tango": 0,
-      "quelling_blade": 0,
-      "ward_sentry": 13,
-      "bottle": 2,
-      "boots": 3,
-      "magic_stick": 6,
-      "magic_wand": 6,
-      "chainmail": 20,
-      "blades_of_attack": 10,
-      "phase_boots": 11,
-      "ring_of_health": 12,
-      "vanguard": 16,
-      "vitality_booster": 16,
-      "broadsword": 18
     },
     "bought_aghs": false,
     "bought_shard": false
