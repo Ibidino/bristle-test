@@ -1,5 +1,100 @@
 [
   {
+    "match_id": 8626221593,
+    "match_date": "2025-12-29 11:13 UTC",
+    "radiant_team": "Ghost Sheep",
+    "dire_team": "Nethercore",
+    "player_name": "\u043c\u0435\u043d\u0435\u0434\u0436\u0435\u0440 \u0442\u0435\u0439\u043a\u043e (\u043f\u0440\u043e\u0434\u0430\u043c \u044d\u043c\u043e)",
+    "items": [
+      "Bracer",
+      "Magic Stick",
+      "Boots",
+      "Lotus Orb",
+      "Branches",
+      "Gloves"
+    ],
+    "backpack": [
+      "Unknown",
+      "Unknown",
+      "Unknown"
+    ],
+    "neutral_item": "Poor Mans Shield",
+    "win": false,
+    "kda": {
+      "kills": 0,
+      "deaths": 7,
+      "assists": 2
+    },
+    "item_timestamps": {
+      "circlet": 0,
+      "magic_stick": 0,
+      "branches": 0,
+      "tango": 1,
+      "gauntlets": 1,
+      "bracer": 2,
+      "boots": 4,
+      "flask": 4,
+      "ring_of_health": 7,
+      "void_stone": 9,
+      "pers": 9,
+      "platemail": 11,
+      "energy_booster": 13,
+      "lotus_orb": 13,
+      "gloves": 16,
+      "belt_of_strength": 18
+    },
+    "bought_aghs": false,
+    "bought_shard": false
+  },
+  {
+    "match_id": 8626121153,
+    "match_date": "2025-12-29 09:26 UTC",
+    "radiant_team": "Riftwalkers",
+    "dire_team": "Lunar Vibes",
+    "player_name": "CreepSlayer",
+    "items": [
+      "Magic Wand",
+      "Ultimate Scepter",
+      "Branches",
+      "Vanguard",
+      "Power Treads",
+      "Sange"
+    ],
+    "backpack": [
+      "Branches",
+      "Unknown",
+      "Unknown"
+    ],
+    "neutral_item": "Poor Mans Shield",
+    "win": true,
+    "kda": {
+      "kills": 7,
+      "deaths": 3,
+      "assists": 13
+    },
+    "item_timestamps": {
+      "magic_wand": 0,
+      "branches": 0,
+      "ring_of_health": 2,
+      "vitality_booster": 5,
+      "vanguard": 5,
+      "boots": 8,
+      "gloves": 8,
+      "belt_of_strength": 25,
+      "power_treads": 8,
+      "tpscroll": 11,
+      "ogre_axe": 25,
+      "staff_of_wizardry": 14,
+      "blade_of_alacrity": 15,
+      "ultimate_scepter": 18,
+      "point_booster": 18,
+      "aghanims_shard": 20,
+      "sange": 25
+    },
+    "bought_aghs": false,
+    "bought_shard": true
+  },
+  {
     "match_id": 8625730651,
     "match_date": "2025-12-28 23:27 UTC",
     "radiant_team": "TOXIC TEAM",
@@ -162,125 +257,5 @@
     },
     "bought_aghs": false,
     "bought_shard": false
-  },
-  {
-    "match_id": 8624776591,
-    "match_date": "2025-12-28 11:25 UTC",
-    "radiant_team": "Nethercore",
-    "dire_team": "Ghost Sheep",
-    "player_name": "trainer",
-    "items": [
-      "Null Talisman",
-      "Bracer",
-      "Power Treads",
-      "Magic Wand",
-      "Lotus Orb",
-      "Pipe"
-    ],
-    "backpack": [
-      "Unknown",
-      "Unknown",
-      "Unknown"
-    ],
-    "neutral_item": "Gunpowder Gauntlets",
-    "win": false,
-    "kda": {
-      "kills": 3,
-      "deaths": 13,
-      "assists": 8
-    },
-    "item_timestamps": {
-      "circlet": 0,
-      "branches": 0,
-      "enchanted_mango": 2,
-      "tango": 2,
-      "gauntlets": 0,
-      "bracer": 2,
-      "mantle": 3,
-      "null_talisman": 4,
-      "magic_stick": 4,
-      "boots": 6,
-      "magic_wand": 7,
-      "gloves": 8,
-      "belt_of_strength": 9,
-      "power_treads": 10,
-      "ring_of_health": 11,
-      "clarity": 11,
-      "void_stone": 12,
-      "pers": 12,
-      "platemail": 16,
-      "energy_booster": 18,
-      "lotus_orb": 18,
-      "cloak": 19,
-      "ring_of_regen": 20,
-      "headdress": 20,
-      "aghanims_shard": 23,
-      "ring_of_tarrasque": 28,
-      "great_famango": 29,
-      "pipe": 30
-    },
-    "bought_aghs": false,
-    "bought_shard": true
-  },
-  {
-    "match_id": 8624461331,
-    "match_date": "2025-12-28 06:33 UTC",
-    "radiant_team": "Nova Pulse",
-    "dire_team": "Wiser Warriors",
-    "player_name": "NP.infinity",
-    "items": [
-      "Power Treads",
-      "Sphere",
-      "Bracer",
-      "Magic Wand",
-      "Heart",
-      "Sange And Yasha"
-    ],
-    "backpack": [
-      "Unknown",
-      "Unknown",
-      "Unknown"
-    ],
-    "neutral_item": "Mana Draught",
-    "win": true,
-    "kda": {
-      "kills": 9,
-      "deaths": 11,
-      "assists": 11
-    },
-    "item_timestamps": {
-      "circlet": 2,
-      "branches": 0,
-      "tango": 4,
-      "gauntlets": 0,
-      "magic_stick": 0,
-      "bracer": 1,
-      "mantle": 2,
-      "null_talisman": 3,
-      "boots": 4,
-      "gloves": 7,
-      "belt_of_strength": 22,
-      "power_treads": 8,
-      "ring_of_health": 9,
-      "void_stone": 10,
-      "magic_wand": 11,
-      "pers": 11,
-      "wind_lace": 11,
-      "ultimate_orb": 15,
-      "sphere": 16,
-      "aghanims_shard": 18,
-      "ogre_axe": 22,
-      "sange": 22,
-      "blade_of_alacrity": 24,
-      "boots_of_elves": 24,
-      "yasha": 24,
-      "tpscroll": 24,
-      "sange_and_yasha": 25,
-      "ring_of_tarrasque": 34,
-      "reaver": 34,
-      "heart": 34
-    },
-    "bought_aghs": false,
-    "bought_shard": true
   }
 ]
