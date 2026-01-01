@@ -1,5 +1,111 @@
 [
   {
+    "match_id": 8629014366,
+    "match_date": "2025-12-31 11:09 UTC",
+    "radiant_team": "Team Yakuza",
+    "dire_team": "Nethercore",
+    "player_name": ".",
+    "items": [
+      "Bracer",
+      "Bracer",
+      "Lotus Orb",
+      "Vanguard",
+      "Wind Lace",
+      "Power Treads"
+    ],
+    "backpack": [
+      "Unknown",
+      "Unknown",
+      "Unknown"
+    ],
+    "neutral_item": "Essence Ring",
+    "win": false,
+    "kda": {
+      "kills": 4,
+      "deaths": 9,
+      "assists": 4
+    },
+    "item_timestamps": {
+      "circlet": 2,
+      "branches": 0,
+      "gauntlets": 0,
+      "tango": 0,
+      "bracer": 3,
+      "ring_of_health": 13,
+      "vanguard": 6,
+      "vitality_booster": 6,
+      "flask": 6,
+      "boots": 7,
+      "magic_stick": 9,
+      "magic_wand": 9,
+      "gloves": 9,
+      "tpscroll": 9,
+      "belt_of_strength": 10,
+      "power_treads": 10,
+      "void_stone": 12,
+      "pers": 13,
+      "platemail": 18,
+      "lotus_orb": 23,
+      "energy_booster": 23,
+      "wind_lace": 23
+    },
+    "bought_aghs": false,
+    "bought_shard": false
+  },
+  {
+    "match_id": 8628762290,
+    "match_date": "2025-12-31 05:58 UTC",
+    "radiant_team": "Riftwalkers",
+    "dire_team": "Lunar Vibes",
+    "player_name": "LV.Ashreaver",
+    "items": [
+      "Cloak",
+      "Null Talisman",
+      "Vanguard",
+      "Power Treads",
+      "Ring Of Tarrasque",
+      "Magic Wand"
+    ],
+    "backpack": [
+      "Bracer",
+      "Ring Of Regen",
+      "Unknown"
+    ],
+    "neutral_item": "Essence Ring",
+    "win": false,
+    "kda": {
+      "kills": 3,
+      "deaths": 8,
+      "assists": 8
+    },
+    "item_timestamps": {
+      "branches": 0,
+      "tango": 0,
+      "circlet": 1,
+      "gauntlets": 0,
+      "quelling_blade": 0,
+      "mantle": 0,
+      "null_talisman": 1,
+      "magic_stick": 2,
+      "bracer": 3,
+      "magic_wand": 3,
+      "boots": 3,
+      "gloves": 5,
+      "belt_of_strength": 6,
+      "power_treads": 7,
+      "ring_of_health": 9,
+      "vitality_booster": 11,
+      "vanguard": 11,
+      "aghanims_shard": 15,
+      "tpscroll": 18,
+      "cloak": 17,
+      "ring_of_tarrasque": 22,
+      "ring_of_regen": 24
+    },
+    "bought_aghs": false,
+    "bought_shard": true
+  },
+  {
     "match_id": 8628300683,
     "match_date": "2025-12-30 19:46 UTC",
     "radiant_team": "Eye Gaming",
@@ -166,101 +272,6 @@
       "ogre_axe": 14,
       "sange": 16,
       "aghanims_shard": 21
-    },
-    "bought_aghs": false,
-    "bought_shard": true
-  },
-  {
-    "match_id": 8626221593,
-    "match_date": "2025-12-29 11:13 UTC",
-    "radiant_team": "Ghost Sheep",
-    "dire_team": "Nethercore",
-    "player_name": "\u043c\u0435\u043d\u0435\u0434\u0436\u0435\u0440 \u0442\u0435\u0439\u043a\u043e (\u043f\u0440\u043e\u0434\u0430\u043c \u044d\u043c\u043e)",
-    "items": [
-      "Bracer",
-      "Magic Stick",
-      "Boots",
-      "Lotus Orb",
-      "Branches",
-      "Gloves"
-    ],
-    "backpack": [
-      "Unknown",
-      "Unknown",
-      "Unknown"
-    ],
-    "neutral_item": "Poor Mans Shield",
-    "win": false,
-    "kda": {
-      "kills": 0,
-      "deaths": 7,
-      "assists": 2
-    },
-    "item_timestamps": {
-      "circlet": 0,
-      "magic_stick": 0,
-      "branches": 0,
-      "tango": 1,
-      "gauntlets": 1,
-      "bracer": 2,
-      "boots": 4,
-      "flask": 4,
-      "ring_of_health": 7,
-      "void_stone": 9,
-      "pers": 9,
-      "platemail": 11,
-      "energy_booster": 13,
-      "lotus_orb": 13,
-      "gloves": 16,
-      "belt_of_strength": 18
-    },
-    "bought_aghs": false,
-    "bought_shard": false
-  },
-  {
-    "match_id": 8626121153,
-    "match_date": "2025-12-29 09:26 UTC",
-    "radiant_team": "Riftwalkers",
-    "dire_team": "Lunar Vibes",
-    "player_name": "CreepSlayer",
-    "items": [
-      "Magic Wand",
-      "Ultimate Scepter",
-      "Branches",
-      "Vanguard",
-      "Power Treads",
-      "Sange"
-    ],
-    "backpack": [
-      "Branches",
-      "Unknown",
-      "Unknown"
-    ],
-    "neutral_item": "Poor Mans Shield",
-    "win": true,
-    "kda": {
-      "kills": 7,
-      "deaths": 3,
-      "assists": 13
-    },
-    "item_timestamps": {
-      "magic_wand": 0,
-      "branches": 0,
-      "ring_of_health": 2,
-      "vitality_booster": 5,
-      "vanguard": 5,
-      "boots": 8,
-      "gloves": 8,
-      "belt_of_strength": 25,
-      "power_treads": 8,
-      "tpscroll": 11,
-      "ogre_axe": 25,
-      "staff_of_wizardry": 14,
-      "blade_of_alacrity": 15,
-      "ultimate_scepter": 18,
-      "point_booster": 18,
-      "aghanims_shard": 20,
-      "sange": 25
     },
     "bought_aghs": false,
     "bought_shard": true
