@@ -1,5 +1,110 @@
 [
   {
+    "match_id": 8660922132,
+    "match_date": "2026-01-23 14:19 UTC",
+    "radiant_team": "Night Force",
+    "dire_team": "Dark Rebellion",
+    "player_name": "Marling",
+    "items": [
+      "Magic Wand",
+      "Vanguard",
+      "Sange",
+      "Power Treads",
+      "Bracer",
+      "Quelling Blade"
+    ],
+    "backpack": [
+      "Unknown",
+      "Unknown",
+      "Unknown"
+    ],
+    "neutral_item": "Polliwog Charm",
+    "win": true,
+    "kda": {
+      "kills": 9,
+      "deaths": 4,
+      "assists": 10
+    },
+    "item_timestamps": {
+      "branches": 0,
+      "tango": 0,
+      "circlet": 0,
+      "gauntlets": 0,
+      "quelling_blade": 0,
+      "magic_stick": 0,
+      "magic_wand": 2,
+      "bracer": 2,
+      "ring_of_health": 3,
+      "vitality_booster": 6,
+      "vanguard": 6,
+      "boots": 8,
+      "belt_of_strength": 16,
+      "gloves": 10,
+      "power_treads": 10,
+      "aghanims_shard": 15,
+      "ogre_axe": 16,
+      "sange": 17,
+      "blade_of_alacrity": 19,
+      "boots_of_elves": 19,
+      "yasha": 20
+    },
+    "bought_aghs": false,
+    "bought_shard": true
+  },
+  {
+    "match_id": 8660684717,
+    "match_date": "2026-01-23 11:19 UTC",
+    "radiant_team": "Foxy gaming",
+    "dire_team": "Dark Rebellion",
+    "player_name": "titik",
+    "items": [
+      "Power Treads",
+      "Point Booster",
+      "Magic Wand",
+      "Blade Mail",
+      "Bracer",
+      "Soul Ring"
+    ],
+    "backpack": [
+      "Famango",
+      "Staff Of Wizardry",
+      "Unknown"
+    ],
+    "neutral_item": "Mana Draught",
+    "win": false,
+    "kda": {
+      "kills": 0,
+      "deaths": 7,
+      "assists": 1
+    },
+    "item_timestamps": {
+      "enchanted_mango": 0,
+      "tango": 0,
+      "circlet": 0,
+      "branches": 9,
+      "gauntlets": 4,
+      "bracer": 1,
+      "boots": 4,
+      "ring_of_protection": 5,
+      "soul_ring": 6,
+      "gloves": 8,
+      "belt_of_strength": 8,
+      "power_treads": 8,
+      "magic_stick": 9,
+      "magic_wand": 9,
+      "chainmail": 10,
+      "broadsword": 13,
+      "blade_mail": 14,
+      "point_booster": 17,
+      "staff_of_wizardry": 20,
+      "ogre_axe": 24,
+      "blade_of_alacrity": 24,
+      "ultimate_scepter": 25
+    },
+    "bought_aghs": false,
+    "bought_shard": false
+  },
+  {
     "match_id": 8659513774,
     "match_date": "2026-01-22 12:33 UTC",
     "radiant_team": "Nova Pulse",
@@ -162,122 +267,5 @@
     },
     "bought_aghs": false,
     "bought_shard": false
-  },
-  {
-    "match_id": 8658596866,
-    "match_date": "2026-01-21 16:20 UTC",
-    "radiant_team": "Eye Gaming",
-    "dire_team": "Teiko",
-    "player_name": "evis (choucha prime)",
-    "items": [
-      "Power Treads",
-      "Blade Mail",
-      "Soul Ring",
-      "Echo Sabre",
-      "Sange",
-      "Voodoo Mask"
-    ],
-    "backpack": [
-      "Unknown",
-      "Unknown",
-      "Unknown"
-    ],
-    "neutral_item": "Chipped Vest",
-    "win": false,
-    "kda": {
-      "kills": 4,
-      "deaths": 13,
-      "assists": 10
-    },
-    "item_timestamps": {
-      "quelling_blade": 0,
-      "tango": 0,
-      "gauntlets": 0,
-      "branches": 0,
-      "magic_stick": 1,
-      "magic_wand": 2,
-      "ring_of_protection": 2,
-      "boots": 3,
-      "soul_ring": 3,
-      "belt_of_strength": 28,
-      "gloves": 5,
-      "power_treads": 5,
-      "tpscroll": 6,
-      "infused_raindrop": 6,
-      "ogre_axe": 28,
-      "void_stone": 11,
-      "echo_sabre": 13,
-      "broadsword": 18,
-      "aghanims_shard": 17,
-      "chainmail": 20,
-      "blade_mail": 20,
-      "voodoo_mask": 23,
-      "sange": 28
-    },
-    "bought_aghs": false,
-    "bought_shard": true
-  },
-  {
-    "match_id": 8658161180,
-    "match_date": "2026-01-21 10:34 UTC",
-    "radiant_team": "VP.Prodigy",
-    "dire_team": "Inner Circle x Insanity",
-    "player_name": "laise",
-    "items": [
-      "Power Treads",
-      "Blade Mail",
-      "Pipe",
-      "Gem",
-      "Crimson Guard",
-      "Sange"
-    ],
-    "backpack": [
-      "Magic Wand",
-      "Unknown",
-      "Unknown"
-    ],
-    "neutral_item": "Poor Mans Shield",
-    "win": true,
-    "kda": {
-      "kills": 4,
-      "deaths": 3,
-      "assists": 17
-    },
-    "item_timestamps": {
-      "tango": 3,
-      "magic_stick": 0,
-      "branches": 0,
-      "circlet": 2,
-      "gauntlets": 0,
-      "bracer": 2,
-      "magic_wand": 3,
-      "mantle": 3,
-      "null_talisman": 4,
-      "boots": 5,
-      "flask": 5,
-      "gloves": 6,
-      "belt_of_strength": 28,
-      "clarity": 10,
-      "power_treads": 7,
-      "chainmail": 8,
-      "broadsword": 10,
-      "blade_mail": 12,
-      "cloak": 12,
-      "tpscroll": 19,
-      "ring_of_tarrasque": 15,
-      "ring_of_regen": 16,
-      "headdress": 16,
-      "pipe": 17,
-      "aghanims_shard": 19,
-      "ring_of_health": 22,
-      "vitality_booster": 23,
-      "vanguard": 23,
-      "helm_of_iron_will": 25,
-      "crimson_guard": 25,
-      "ogre_axe": 28,
-      "sange": 29
-    },
-    "bought_aghs": false,
-    "bought_shard": true
   }
 ]
