@@ -1,5 +1,117 @@
 [
   {
+    "match_id": 8672202214,
+    "match_date": "2026-01-31 17:49 UTC",
+    "radiant_team": "Amaru Gaming",
+    "dire_team": "Per\u00fa Rejects",
+    "player_name": "x",
+    "items": [
+      "Power Treads",
+      "Blade Mail",
+      "Lotus Orb",
+      "Ogre Axe",
+      "Null Talisman",
+      "Magic Wand"
+    ],
+    "backpack": [
+      "Bracer",
+      "Unknown",
+      "Unknown"
+    ],
+    "neutral_item": "Defiant Shell",
+    "win": false,
+    "kda": {
+      "kills": 1,
+      "deaths": 7,
+      "assists": 3
+    },
+    "item_timestamps": {
+      "tango": 3,
+      "gauntlets": 0,
+      "magic_stick": 0,
+      "branches": 0,
+      "circlet": 2,
+      "bracer": 1,
+      "magic_wand": 2,
+      "mantle": 3,
+      "null_talisman": 3,
+      "boots": 4,
+      "gloves": 6,
+      "belt_of_strength": 6,
+      "power_treads": 7,
+      "chainmail": 8,
+      "broadsword": 10,
+      "clarity": 11,
+      "blade_mail": 12,
+      "ring_of_health": 14,
+      "pers": 14,
+      "void_stone": 14,
+      "platemail": 18,
+      "energy_booster": 19,
+      "lotus_orb": 20,
+      "ogre_axe": 23
+    },
+    "bought_aghs": false,
+    "bought_shard": false
+  },
+  {
+    "match_id": 8671820075,
+    "match_date": "2026-01-31 13:44 UTC",
+    "radiant_team": "Team Liquid",
+    "dire_team": "BetBoom Team",
+    "player_name": "m1CKe",
+    "items": [
+      "Power Treads",
+      "Magic Wand",
+      "Phylactery",
+      "Null Talisman",
+      "Bracer",
+      "Sange"
+    ],
+    "backpack": [
+      "Unknown",
+      "Unknown",
+      "Famango"
+    ],
+    "neutral_item": "Ash Legion Shield",
+    "win": true,
+    "kda": {
+      "kills": 6,
+      "deaths": 1,
+      "assists": 1
+    },
+    "item_timestamps": {
+      "branches": 0,
+      "circlet": 0,
+      "enchanted_mango": 1,
+      "tango": 0,
+      "gauntlets": 0,
+      "bracer": 1,
+      "mantle": 2,
+      "null_talisman": 2,
+      "flask": 2,
+      "ring_of_health": 4,
+      "infused_raindrop": 4,
+      "boots": 6,
+      "void_stone": 7,
+      "pers": 8,
+      "magic_stick": 8,
+      "clarity": 14,
+      "gloves": 9,
+      "belt_of_strength": 14,
+      "magic_wand": 9,
+      "diadem": 11,
+      "phylactery": 11,
+      "power_treads": 11,
+      "ogre_axe": 14,
+      "sange": 14,
+      "aghanims_shard": 16,
+      "tpscroll": 17
+    },
+    "bought_aghs": false,
+    "bought_shard": true
+  },
+  {
     "match_id": 8670635426,
     "match_date": "2026-01-30 17:10 UTC",
     "radiant_team": "LV United",
@@ -172,105 +284,6 @@
       "hyperstone": 36,
       "buckler": 42,
       "assault": 43
-    },
-    "bought_aghs": false,
-    "bought_shard": true
-  },
-  {
-    "match_id": 8668694979,
-    "match_date": "2026-01-29 07:03 UTC",
-    "radiant_team": "Flawless Goblins",
-    "dire_team": "Dark Rebellion",
-    "player_name": "Kreen",
-    "items": [
-      "Magic Wand",
-      "Soul Ring",
-      "Pers",
-      "Phase Boots",
-      "Bracer",
-      "Platemail"
-    ],
-    "backpack": [
-      "Recipe Lotus Orb",
-      "Unknown",
-      "Famango"
-    ],
-    "neutral_item": "Essence Ring",
-    "win": false,
-    "kda": {
-      "kills": 0,
-      "deaths": 4,
-      "assists": 5
-    },
-    "item_timestamps": {
-      "magic_wand": 0,
-      "branches": 0,
-      "tango": 0,
-      "circlet": 2,
-      "bracer": 2,
-      "gauntlets": 7,
-      "boots": 4,
-      "ring_of_health": 5,
-      "ring_of_protection": 7,
-      "soul_ring": 7,
-      "chainmail": 10,
-      "blades_of_attack": 10,
-      "phase_boots": 11,
-      "void_stone": 11,
-      "pers": 12,
-      "platemail": 17
-    },
-    "bought_aghs": false,
-    "bought_shard": false
-  },
-  {
-    "match_id": 8668645424,
-    "match_date": "2026-01-29 05:35 UTC",
-    "radiant_team": "Wiser Warriors",
-    "dire_team": "Riftwalkers",
-    "player_name": "EmbraceTheLight",
-    "items": [
-      "Magic Wand",
-      "Bracer",
-      "Wind Lace",
-      "Phase Boots",
-      "Lotus Orb",
-      "Soul Ring"
-    ],
-    "backpack": [
-      "Unknown",
-      "Famango",
-      "Unknown"
-    ],
-    "neutral_item": "Poor Mans Shield",
-    "win": false,
-    "kda": {
-      "kills": 4,
-      "deaths": 8,
-      "assists": 5
-    },
-    "item_timestamps": {
-      "magic_wand": 0,
-      "branches": 0,
-      "tango": 0,
-      "circlet": 2,
-      "bracer": 2,
-      "gauntlets": 6,
-      "boots": 3,
-      "infused_raindrop": 5,
-      "ring_of_protection": 6,
-      "soul_ring": 6,
-      "wind_lace": 7,
-      "chainmail": 8,
-      "blades_of_attack": 9,
-      "phase_boots": 10,
-      "ring_of_health": 12,
-      "void_stone": 14,
-      "pers": 14,
-      "platemail": 17,
-      "lotus_orb": 19,
-      "energy_booster": 19,
-      "aghanims_shard": 22
     },
     "bought_aghs": false,
     "bought_shard": true
