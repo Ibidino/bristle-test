@@ -1,5 +1,59 @@
 [
   {
+    "match_id": 8924643572,
+    "match_date": "2026-08-01 19:08 UTC",
+    "radiant_team": "Syntax",
+    "dire_team": "BALU TEAM",
+    "player_name": " chipikao",
+    "items": [
+      "Bracer",
+      "Soul Ring",
+      "Ogre Axe",
+      "Consecrated Wraps",
+      "Power Treads",
+      "Magic Wand"
+    ],
+    "backpack": [
+      "Clarity",
+      "Dust",
+      "Belt Of Strength"
+    ],
+    "neutral_item": "Polliwog Charm",
+    "win": false,
+    "kda": {
+      "kills": 2,
+      "deaths": 6,
+      "assists": 2
+    },
+    "item_timestamps": {
+      "gauntlets": 1,
+      "magic_stick": 0,
+      "branches": 0,
+      "tango": 3,
+      "circlet": 1,
+      "bracer": 1,
+      "boots": 3,
+      "gloves": 5,
+      "belt_of_strength": 20,
+      "ring_of_protection": 6,
+      "clarity": 13,
+      "power_treads": 7,
+      "ward_sentry": 7,
+      "soul_ring": 8,
+      "shawl": 8,
+      "crown": 9,
+      "magic_wand": 11,
+      "consecrated_wraps": 13,
+      "vitality_booster": 13,
+      "tpscroll": 14,
+      "aghanims_shard": 16,
+      "dust": 16,
+      "ogre_axe": 18
+    },
+    "bought_aghs": false,
+    "bought_shard": true
+  },
+  {
     "match_id": 8921979012,
     "match_date": "2026-07-31 06:38 UTC",
     "radiant_team": "Yellow Submarine",
@@ -205,6 +259,63 @@
       "ring_of_protection": 43,
       "buckler": 43,
       "assault": 45
+    },
+    "bought_aghs": false,
+    "bought_shard": true
+  },
+  {
+    "match_id": 8906626852,
+    "match_date": "2026-07-21 10:02 UTC",
+    "radiant_team": "Syntax",
+    "dire_team": "PuckChamp",
+    "player_name": "emptiness\u6b7b",
+    "items": [
+      "Magic Wand",
+      "Platemail",
+      "Black King Bar",
+      "Heavens Halberd",
+      "Power Treads",
+      "Soul Ring"
+    ],
+    "backpack": [
+      "Unknown",
+      "Unknown",
+      "Unknown"
+    ],
+    "neutral_item": "Cloak Of Flames",
+    "win": false,
+    "kda": {
+      "kills": 4,
+      "deaths": 11,
+      "assists": 10
+    },
+    "item_timestamps": {
+      "branches": 20,
+      "tango": 0,
+      "circlet": 0,
+      "gauntlets": 8,
+      "enchanted_mango": 0,
+      "flask": 0,
+      "ring_of_health": 3,
+      "smoke_of_deceit": 3,
+      "boots": 5,
+      "ring_of_protection": 5,
+      "bracer": 6,
+      "gloves": 10,
+      "soul_ring": 8,
+      "power_treads": 10,
+      "belt_of_strength": 10,
+      "talisman_of_evasion": 12,
+      "splintmail": 15,
+      "heavens_halberd": 15,
+      "aghanims_shard": 18,
+      "magic_stick": 20,
+      "magic_wand": 20,
+      "ogre_axe": 22,
+      "mithril_hammer": 28,
+      "black_king_bar": 29,
+      "dust": 29,
+      "platemail": 31
     },
     "bought_aghs": false,
     "bought_shard": true
