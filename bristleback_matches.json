@@ -83,7 +83,7 @@
     "match_date": "2026-08-31 10:19 UTC",
     "radiant_team": "Zero Tenacity",
     "dire_team": "PuckChamp",
-    "player_name": "nefrit",
+    "player_name": "Unknown",
     "items": [
       "Consecrated Wraps",
       "Power Treads",
@@ -138,5 +138,171 @@
     },
     "bought_aghs": false,
     "bought_shard": true
+  },
+  {
+    "match_id": 8973763061,
+    "match_date": "2026-08-30 08:35 UTC",
+    "radiant_team": "Execration",
+    "dire_team": "Team Nemesis",
+    "player_name": "Palos",
+    "items": [
+      "Sange And Yasha",
+      "Power Treads",
+      "Black King Bar",
+      "Heart",
+      "Lotus Orb",
+      "Assault"
+    ],
+    "backpack": [
+      "Unknown",
+      "Unknown",
+      "Unknown"
+    ],
+    "neutral_item": "Rattlecage",
+    "win": false,
+    "kda": {
+      "kills": 7,
+      "deaths": 5,
+      "assists": 5
+    },
+    "item_timestamps": {
+      "enchanted_mango": 0,
+      "magic_stick": 0,
+      "branches": 0,
+      "circlet": 0,
+      "tango": 0,
+      "mantle": 0,
+      "boots": 2,
+      "flask": 2,
+      "null_talisman": 3,
+      "ring_of_health": 4,
+      "infused_raindrop": 4,
+      "magic_wand": 5,
+      "gloves": 5,
+      "belt_of_strength": 11,
+      "power_treads": 7,
+      "pers": 8,
+      "void_stone": 8,
+      "clarity": 10,
+      "ward_sentry": 8,
+      "ogre_axe": 22,
+      "sange": 11,
+      "boots_of_elves": 12,
+      "blade_of_alacrity": 13,
+      "yasha": 15,
+      "sange_and_yasha": 15,
+      "aghanims_shard": 16,
+      "great_famango": 18,
+      "platemail": 31,
+      "energy_booster": 22,
+      "lotus_orb": 22,
+      "mithril_hammer": 25,
+      "black_king_bar": 27,
+      "tpscroll": 50,
+      "hyperstone": 34,
+      "ring_of_protection": 34,
+      "buckler": 34,
+      "assault": 36,
+      "greater_famango": 39,
+      "reaver": 46,
+      "ring_of_tarrasque": 46,
+      "heart": 46
+    },
+    "bought_aghs": false,
+    "bought_shard": true
+  },
+  {
+    "match_id": 8973020434,
+    "match_date": "2026-08-29 20:26 UTC",
+    "radiant_team": null,
+    "dire_team": null,
+    "player_name": "a s d f g",
+    "items": [
+      "Power Treads",
+      "Cloak",
+      "Shawl",
+      "Magic Wand",
+      "Null Talisman",
+      "Vanguard"
+    ],
+    "backpack": [
+      "Splintmail",
+      "Unknown",
+      "Unknown"
+    ],
+    "neutral_item": "Occult Bracelet",
+    "win": false,
+    "kda": {
+      "kills": 1,
+      "deaths": 13,
+      "assists": 5
+    },
+    "item_timestamps": {
+      "tango": 0,
+      "branches": 14,
+      "magic_stick": 0,
+      "gauntlets": 0,
+      "circlet": 0,
+      "mantle": 0,
+      "null_talisman": 2,
+      "ring_of_health": 4,
+      "boots": 8,
+      "vanguard": 10,
+      "vitality_booster": 10,
+      "belt_of_strength": 12,
+      "power_treads": 14,
+      "gloves": 14,
+      "magic_wand": 14,
+      "cloak": 18,
+      "shawl": 20,
+      "splintmail": 23
+    },
+    "bought_aghs": false,
+    "bought_shard": false
+  },
+  {
+    "match_id": 8972901532,
+    "match_date": "2026-08-29 19:12 UTC",
+    "radiant_team": null,
+    "dire_team": null,
+    "player_name": "FEDEO POR TU BIEN",
+    "items": [
+      "Quelling Blade",
+      "Tango",
+      "Power Treads",
+      "Magic Wand",
+      "Broadsword",
+      "Bracer"
+    ],
+    "backpack": [
+      "Unknown",
+      "Unknown",
+      "Recipe Blade Mail"
+    ],
+    "neutral_item": "Dagger Of Ristul",
+    "win": false,
+    "kda": {
+      "kills": 2,
+      "deaths": 8,
+      "assists": 2
+    },
+    "item_timestamps": {
+      "quelling_blade": 0,
+      "gauntlets": 0,
+      "faerie_fire": 12,
+      "tango": 12,
+      "circlet": 0,
+      "bracer": 0,
+      "magic_stick": 2,
+      "boots": 6,
+      "gloves": 9,
+      "branches": 9,
+      "magic_wand": 9,
+      "belt_of_strength": 10,
+      "power_treads": 11,
+      "broadsword": 17
+    },
+    "bought_aghs": false,
+    "bought_shard": false
   }
 ]
