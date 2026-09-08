@@ -83,7 +83,7 @@
     "match_date": "2026-08-31 10:19 UTC",
     "radiant_team": "Zero Tenacity",
     "dire_team": "PuckChamp",
-    "player_name": "Unknown",
+    "player_name": "nefrit",
     "items": [
       "Consecrated Wraps",
       "Power Treads",
@@ -256,51 +256,6 @@
       "cloak": 18,
       "shawl": 20,
       "splintmail": 23
-    },
-    "bought_aghs": false,
-    "bought_shard": false
-  },
-  {
-    "match_id": 8972901532,
-    "match_date": "2026-08-29 19:12 UTC",
-    "radiant_team": null,
-    "dire_team": null,
-    "player_name": "FEDEO POR TU BIEN",
-    "items": [
-      "Quelling Blade",
-      "Tango",
-      "Power Treads",
-      "Magic Wand",
-      "Broadsword",
-      "Bracer"
-    ],
-    "backpack": [
-      "Unknown",
-      "Unknown",
-      "Recipe Blade Mail"
-    ],
-    "neutral_item": "Dagger Of Ristul",
-    "win": false,
-    "kda": {
-      "kills": 2,
-      "deaths": 8,
-      "assists": 2
-    },
-    "item_timestamps": {
-      "quelling_blade": 0,
-      "gauntlets": 0,
-      "faerie_fire": 12,
-      "tango": 12,
-      "circlet": 0,
-      "bracer": 0,
-      "magic_stick": 2,
-      "boots": 6,
-      "gloves": 9,
-      "branches": 9,
-      "magic_wand": 9,
-      "belt_of_strength": 10,
-      "power_treads": 11,
-      "broadsword": 17
     },
     "bought_aghs": false,
     "bought_shard": false
