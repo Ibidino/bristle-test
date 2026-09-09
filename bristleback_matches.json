@@ -210,54 +210,5 @@
     },
     "bought_aghs": false,
     "bought_shard": true
-  },
-  {
-    "match_id": 8973020434,
-    "match_date": "2026-08-29 20:26 UTC",
-    "radiant_team": null,
-    "dire_team": null,
-    "player_name": "a s d f g",
-    "items": [
-      "Power Treads",
-      "Cloak",
-      "Shawl",
-      "Magic Wand",
-      "Null Talisman",
-      "Vanguard"
-    ],
-    "backpack": [
-      "Splintmail",
-      "Unknown",
-      "Unknown"
-    ],
-    "neutral_item": "Occult Bracelet",
-    "win": false,
-    "kda": {
-      "kills": 1,
-      "deaths": 13,
-      "assists": 5
-    },
-    "item_timestamps": {
-      "tango": 0,
-      "branches": 14,
-      "magic_stick": 0,
-      "gauntlets": 0,
-      "circlet": 0,
-      "mantle": 0,
-      "null_talisman": 2,
-      "ring_of_health": 4,
-      "boots": 8,
-      "vanguard": 10,
-      "vitality_booster": 10,
-      "belt_of_strength": 12,
-      "power_treads": 14,
-      "gloves": 14,
-      "magic_wand": 14,
-      "cloak": 18,
-      "shawl": 20,
-      "splintmail": 23
-    },
-    "bought_aghs": false,
-    "bought_shard": false
   }
 ]
