@@ -1,5 +1,72 @@
 [
   {
+    "match_id": 8992284302,
+    "match_date": "2026-09-10 18:27 UTC",
+    "radiant_team": "NS Club",
+    "dire_team": "VooDooSh Club",
+    "player_name": "HDE",
+    "items": [
+      "Heart",
+      "Sange And Yasha",
+      "Assault",
+      "Power Treads",
+      "Consecrated Wraps",
+      "Soul Ring"
+    ],
+    "backpack": [
+      "Magic Wand",
+      "Unknown",
+      "Unknown"
+    ],
+    "neutral_item": "Rattlecage",
+    "win": false,
+    "kda": {
+      "kills": 1,
+      "deaths": 6,
+      "assists": 6
+    },
+    "item_timestamps": {
+      "tango": 0,
+      "branches": 0,
+      "quelling_blade": 0,
+      "bottle": 1,
+      "boots": 2,
+      "magic_stick": 3,
+      "gloves": 5,
+      "belt_of_strength": 28,
+      "power_treads": 5,
+      "ward_observer": 5,
+      "ward_sentry": 5,
+      "wind_lace": 5,
+      "magic_wand": 6,
+      "flask": 7,
+      "ring_of_protection": 40,
+      "gauntlets": 7,
+      "soul_ring": 8,
+      "shawl": 10,
+      "crown": 11,
+      "vitality_booster": 12,
+      "consecrated_wraps": 12,
+      "aghanims_shard": 15,
+      "tpscroll": 28,
+      "ring_of_tarrasque": 19,
+      "reaver": 22,
+      "heart": 22,
+      "blade_of_alacrity": 26,
+      "boots_of_elves": 26,
+      "yasha": 27,
+      "ogre_axe": 28,
+      "sange": 28,
+      "sange_and_yasha": 29,
+      "hyperstone": 33,
+      "platemail": 39,
+      "buckler": 40,
+      "assault": 40
+    },
+    "bought_aghs": false,
+    "bought_shard": true
+  },
+  {
     "match_id": 8980358113,
     "match_date": "2026-09-03 10:13 UTC",
     "radiant_team": "Klim Sani4",
@@ -210,5 +277,54 @@
     },
     "bought_aghs": false,
     "bought_shard": true
+  },
+  {
+    "match_id": 8973020434,
+    "match_date": "2026-08-29 20:26 UTC",
+    "radiant_team": null,
+    "dire_team": null,
+    "player_name": "a s d f g",
+    "items": [
+      "Power Treads",
+      "Cloak",
+      "Shawl",
+      "Magic Wand",
+      "Null Talisman",
+      "Vanguard"
+    ],
+    "backpack": [
+      "Splintmail",
+      "Unknown",
+      "Unknown"
+    ],
+    "neutral_item": "Occult Bracelet",
+    "win": false,
+    "kda": {
+      "kills": 1,
+      "deaths": 13,
+      "assists": 5
+    },
+    "item_timestamps": {
+      "tango": 0,
+      "branches": 14,
+      "magic_stick": 0,
+      "gauntlets": 0,
+      "circlet": 0,
+      "mantle": 0,
+      "null_talisman": 2,
+      "ring_of_health": 4,
+      "boots": 8,
+      "vanguard": 10,
+      "vitality_booster": 10,
+      "belt_of_strength": 12,
+      "power_treads": 14,
+      "gloves": 14,
+      "magic_wand": 14,
+      "cloak": 18,
+      "shawl": 20,
+      "splintmail": 23
+    },
+    "bought_aghs": false,
+    "bought_shard": false
   }
 ]
