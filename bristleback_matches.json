@@ -1,5 +1,62 @@
 [
   {
+    "match_id": 9006715157,
+    "match_date": "2026-09-19 16:24 UTC",
+    "radiant_team": "Yakult Brothers",
+    "dire_team": "LGD Gaming",
+    "player_name": "Beyond",
+    "items": [
+      "Dust",
+      "Soul Ring",
+      "Lotus Orb",
+      "Ogre Axe",
+      "Power Treads",
+      "Sange And Yasha"
+    ],
+    "backpack": [
+      "Unknown",
+      "Unknown",
+      "Unknown"
+    ],
+    "neutral_item": "Cloak Of Flames",
+    "win": false,
+    "kda": {
+      "kills": 2,
+      "deaths": 4,
+      "assists": 4
+    },
+    "item_timestamps": {
+      "gauntlets": 8,
+      "ring_of_protection": 0,
+      "tango": 1,
+      "circlet": 0,
+      "bracer": 3,
+      "boots": 3,
+      "ring_of_health": 5,
+      "belt_of_strength": 18,
+      "gloves": 8,
+      "power_treads": 8,
+      "soul_ring": 9,
+      "tpscroll": 31,
+      "flask": 10,
+      "pers": 10,
+      "void_stone": 10,
+      "platemail": 12,
+      "energy_booster": 14,
+      "lotus_orb": 15,
+      "ogre_axe": 30,
+      "sange": 19,
+      "aghanims_shard": 21,
+      "dust": 24,
+      "blade_of_alacrity": 24,
+      "boots_of_elves": 26,
+      "yasha": 27,
+      "sange_and_yasha": 27
+    },
+    "bought_aghs": false,
+    "bought_shard": true
+  },
+  {
     "match_id": 8992284302,
     "match_date": "2026-09-10 18:27 UTC",
     "radiant_team": "NS Club",
