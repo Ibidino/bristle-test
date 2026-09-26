@@ -1,5 +1,115 @@
 [
   {
+    "match_id": 9015919750,
+    "match_date": "2026-09-25 18:44 UTC",
+    "radiant_team": "Team GPK",
+    "dire_team": "Team Cake",
+    "player_name": "kiyotaka",
+    "items": [
+      "Lotus Orb",
+      "Power Treads",
+      "Bottle",
+      "Unknown",
+      "Magic Wand",
+      "Branches"
+    ],
+    "backpack": [
+      "Unknown",
+      "Unknown",
+      "Unknown"
+    ],
+    "neutral_item": "Pogo Stick",
+    "win": false,
+    "kda": {
+      "kills": 3,
+      "deaths": 7,
+      "assists": 7
+    },
+    "item_timestamps": {
+      "tango": 0,
+      "magic_stick": 0,
+      "branches": 0,
+      "faerie_fire": 0,
+      "ward_observer": 0,
+      "bottle": 1,
+      "boots": 2,
+      "gloves": 4,
+      "infused_raindrop": 4,
+      "magic_wand": 4,
+      "belt_of_strength": 5,
+      "power_treads": 6,
+      "ring_of_health": 10,
+      "pers": 10,
+      "void_stone": 10,
+      "platemail": 12,
+      "energy_booster": 13,
+      "lotus_orb": 14,
+      "aghanims_shard": 16
+    },
+    "bought_aghs": false,
+    "bought_shard": true
+  },
+  {
+    "match_id": 9015316613,
+    "match_date": "2026-09-25 12:31 UTC",
+    "radiant_team": "Team avice",
+    "dire_team": "Team Solo",
+    "player_name": "\u5fb7\u53e4\u62c9(blindzone)",
+    "items": [
+      "Lotus Orb",
+      "Soul Ring",
+      "Power Treads",
+      "Bracer",
+      "Consecrated Wraps",
+      "Sange And Yasha"
+    ],
+    "backpack": [
+      "Unknown",
+      "Unknown",
+      "Unknown"
+    ],
+    "neutral_item": "Gunpowder Gauntlets",
+    "win": true,
+    "kda": {
+      "kills": 4,
+      "deaths": 5,
+      "assists": 10
+    },
+    "item_timestamps": {
+      "gauntlets": 0,
+      "branches": 0,
+      "tango": 2,
+      "circlet": 2,
+      "bracer": 2,
+      "ring_of_protection": 4,
+      "soul_ring": 4,
+      "boots": 6,
+      "gloves": 7,
+      "belt_of_strength": 23,
+      "power_treads": 9,
+      "void_stone": 9,
+      "pers": 11,
+      "ring_of_health": 11,
+      "tpscroll": 19,
+      "platemail": 14,
+      "energy_booster": 15,
+      "lotus_orb": 15,
+      "shawl": 19,
+      "vitality_booster": 19,
+      "crown": 20,
+      "consecrated_wraps": 21,
+      "ogre_axe": 23,
+      "sange": 25,
+      "blade_of_alacrity": 26,
+      "boots_of_elves": 27,
+      "yasha": 28,
+      "sange_and_yasha": 28,
+      "aghanims_shard": 30
+    },
+    "bought_aghs": false,
+    "bought_shard": true
+  },
+  {
     "match_id": 9013821098,
     "match_date": "2026-09-24 12:22 UTC",
     "radiant_team": "Team GPK",
@@ -177,63 +287,6 @@
       "boots_of_elves": 38,
       "yasha": 38,
       "sange_and_yasha": 38
-    },
-    "bought_aghs": false,
-    "bought_shard": true
-  },
-  {
-    "match_id": 9006715157,
-    "match_date": "2026-09-19 16:24 UTC",
-    "radiant_team": "Yakult Brothers",
-    "dire_team": "LGD Gaming",
-    "player_name": "Beyond",
-    "items": [
-      "Dust",
-      "Soul Ring",
-      "Lotus Orb",
-      "Ogre Axe",
-      "Power Treads",
-      "Sange And Yasha"
-    ],
-    "backpack": [
-      "Unknown",
-      "Unknown",
-      "Unknown"
-    ],
-    "neutral_item": "Cloak Of Flames",
-    "win": false,
-    "kda": {
-      "kills": 2,
-      "deaths": 4,
-      "assists": 4
-    },
-    "item_timestamps": {
-      "gauntlets": 8,
-      "ring_of_protection": 0,
-      "tango": 1,
-      "circlet": 0,
-      "bracer": 3,
-      "boots": 3,
-      "ring_of_health": 5,
-      "belt_of_strength": 18,
-      "gloves": 8,
-      "power_treads": 8,
-      "soul_ring": 9,
-      "tpscroll": 31,
-      "flask": 10,
-      "pers": 10,
-      "void_stone": 10,
-      "platemail": 12,
-      "energy_booster": 14,
-      "lotus_orb": 15,
-      "ogre_axe": 30,
-      "sange": 19,
-      "aghanims_shard": 21,
-      "dust": 24,
-      "blade_of_alacrity": 24,
-      "boots_of_elves": 26,
-      "yasha": 27,
-      "sange_and_yasha": 27
     },
     "bought_aghs": false,
     "bought_shard": true
