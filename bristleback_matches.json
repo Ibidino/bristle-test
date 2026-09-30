@@ -228,5 +228,63 @@
     },
     "bought_aghs": false,
     "bought_shard": true
+  },
+  {
+    "match_id": 9013821098,
+    "match_date": "2026-09-24 12:22 UTC",
+    "radiant_team": "Team GPK",
+    "dire_team": "Team Daxak",
+    "player_name": "Daxao",
+    "items": [
+      "Power Treads",
+      "Soul Ring",
+      "Heart",
+      "Sange And Yasha",
+      "Platemail",
+      "Magic Wand"
+    ],
+    "backpack": [
+      "Unknown",
+      "Unknown",
+      "Unknown"
+    ],
+    "neutral_item": "Mana Draught",
+    "win": true,
+    "kda": {
+      "kills": 9,
+      "deaths": 1,
+      "assists": 12
+    },
+    "item_timestamps": {
+      "magic_stick": 0,
+      "gauntlets": 4,
+      "faerie_fire": 0,
+      "tango": 1,
+      "branches": 6,
+      "belt_of_strength": 6,
+      "enchanted_mango": 1,
+      "boots": 2,
+      "gloves": 3,
+      "power_treads": 4,
+      "ring_of_protection": 4,
+      "soul_ring": 5,
+      "clarity": 14,
+      "ogre_axe": 8,
+      "sange": 8,
+      "magic_wand": 9,
+      "blade_of_alacrity": 10,
+      "tpscroll": 14,
+      "boots_of_elves": 11,
+      "great_famango": 16,
+      "yasha": 12,
+      "sange_and_yasha": 12,
+      "ring_of_tarrasque": 14,
+      "aghanims_shard": 15,
+      "reaver": 18,
+      "heart": 21,
+      "platemail": 22
+    },
+    "bought_aghs": false,
+    "bought_shard": true
   }
 ]
