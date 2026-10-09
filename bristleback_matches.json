@@ -249,55 +249,5 @@
     },
     "bought_aghs": false,
     "bought_shard": true
-  },
-  {
-    "match_id": 9015919750,
-    "match_date": "2026-09-25 18:44 UTC",
-    "radiant_team": "Team GPK",
-    "dire_team": "Team Cake",
-    "player_name": "kiyotaka",
-    "items": [
-      "Lotus Orb",
-      "Power Treads",
-      "Bottle",
-      "Unknown",
-      "Magic Wand",
-      "Branches"
-    ],
-    "backpack": [
-      "Unknown",
-      "Unknown",
-      "Unknown"
-    ],
-    "neutral_item": "Pogo Stick",
-    "win": false,
-    "kda": {
-      "kills": 3,
-      "deaths": 7,
-      "assists": 7
-    },
-    "item_timestamps": {
-      "tango": 0,
-      "magic_stick": 0,
-      "branches": 0,
-      "faerie_fire": 0,
-      "ward_observer": 0,
-      "bottle": 1,
-      "boots": 2,
-      "gloves": 4,
-      "infused_raindrop": 4,
-      "magic_wand": 4,
-      "belt_of_strength": 5,
-      "power_treads": 6,
-      "ring_of_health": 10,
-      "pers": 10,
-      "void_stone": 10,
-      "platemail": 12,
-      "energy_booster": 13,
-      "lotus_orb": 14,
-      "aghanims_shard": 16
-    },
-    "bought_aghs": false,
-    "bought_shard": true
   }
 ]
