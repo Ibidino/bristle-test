@@ -1,5 +1,68 @@
 [
   {
+    "match_id": 9038973390,
+    "match_date": "2026-10-10 21:12 UTC",
+    "radiant_team": "NEW GROWTH",
+    "dire_team": "Hokori",
+    "player_name": "Vitaly \u8a87\u308a",
+    "items": [
+      "Power Treads",
+      "Lotus Orb",
+      "Heart",
+      "Magic Wand",
+      "Null Talisman",
+      "Sange And Yasha"
+    ],
+    "backpack": [
+      "Unknown",
+      "Unknown",
+      "Unknown"
+    ],
+    "neutral_item": "Cloak Of Flames",
+    "win": true,
+    "kda": {
+      "kills": 2,
+      "deaths": 3,
+      "assists": 12
+    },
+    "item_timestamps": {
+      "tango": 0,
+      "magic_stick": 0,
+      "gauntlets": 0,
+      "branches": 0,
+      "circlet": 2,
+      "bracer": 1,
+      "mantle": 2,
+      "null_talisman": 2,
+      "boots": 4,
+      "infused_raindrop": 5,
+      "magic_wand": 6,
+      "belt_of_strength": 21,
+      "gloves": 7,
+      "power_treads": 8,
+      "ring_of_health": 10,
+      "pers": 10,
+      "void_stone": 10,
+      "flask": 12,
+      "platemail": 14,
+      "energy_booster": 16,
+      "lotus_orb": 16,
+      "aghanims_shard": 19,
+      "tpscroll": 30,
+      "ogre_axe": 20,
+      "sange": 23,
+      "reaver": 26,
+      "ring_of_tarrasque": 30,
+      "heart": 31,
+      "blade_of_alacrity": 32,
+      "boots_of_elves": 32,
+      "yasha": 32,
+      "sange_and_yasha": 32
+    },
+    "bought_aghs": false,
+    "bought_shard": true
+  },
+  {
     "match_id": 9027757267,
     "match_date": "2026-10-03 16:27 UTC",
     "radiant_team": "OG",
