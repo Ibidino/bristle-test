@@ -1,5 +1,74 @@
 [
   {
+    "match_id": 9047376255,
+    "match_date": "2026-10-16 12:00 UTC",
+    "radiant_team": "Royal Bear",
+    "dire_team": "InterActive Philippines",
+    "player_name": "Akashi",
+    "items": [
+      "Heart",
+      "Lotus Orb",
+      "Power Treads",
+      "Unknown",
+      "Sange And Yasha",
+      "Black King Bar"
+    ],
+    "backpack": [
+      "Unknown",
+      "Unknown",
+      "Unknown"
+    ],
+    "neutral_item": "Metamorphic Mandible",
+    "win": false,
+    "kda": {
+      "kills": 4,
+      "deaths": 9,
+      "assists": 9
+    },
+    "item_timestamps": {
+      "circlet": 0,
+      "tango": 0,
+      "branches": 10,
+      "faerie_fire": 0,
+      "enchanted_mango": 0,
+      "gauntlets": 6,
+      "clarity": 1,
+      "bracer": 3,
+      "boots": 8,
+      "ring_of_health": 4,
+      "ring_of_protection": 6,
+      "soul_ring": 6,
+      "ward_sentry": 8,
+      "gloves": 10,
+      "belt_of_strength": 22,
+      "magic_stick": 10,
+      "magic_wand": 11,
+      "power_treads": 11,
+      "tpscroll": 45,
+      "void_stone": 12,
+      "pers": 13,
+      "platemail": 15,
+      "energy_booster": 17,
+      "lotus_orb": 17,
+      "blood_grenade": 19,
+      "dust": 19,
+      "aghanims_shard": 20,
+      "ogre_axe": 35,
+      "sange": 23,
+      "blade_of_alacrity": 25,
+      "boots_of_elves": 25,
+      "yasha": 25,
+      "sange_and_yasha": 25,
+      "reaver": 28,
+      "ring_of_tarrasque": 31,
+      "heart": 32,
+      "mithril_hammer": 38,
+      "black_king_bar": 40
+    },
+    "bought_aghs": false,
+    "bought_shard": true
+  },
+  {
     "match_id": 9046649311,
     "match_date": "2026-10-15 19:15 UTC",
     "radiant_team": "zxcursed Team",
@@ -173,5 +242,61 @@
     },
     "bought_aghs": false,
     "bought_shard": false
+  },
+  {
+    "match_id": 9027757267,
+    "match_date": "2026-10-03 16:27 UTC",
+    "radiant_team": "OG",
+    "dire_team": "1win",
+    "player_name": "Natsumi",
+    "items": [
+      "Bracer",
+      "Sange And Yasha",
+      "Magic Wand",
+      "Power Treads",
+      "Unknown",
+      "Null Talisman"
+    ],
+    "backpack": [
+      "Unknown",
+      "Unknown",
+      "Unknown"
+    ],
+    "neutral_item": "Defiant Shell",
+    "win": false,
+    "kda": {
+      "kills": 2,
+      "deaths": 5,
+      "assists": 2
+    },
+    "item_timestamps": {
+      "circlet": 0,
+      "branches": 0,
+      "tango": 0,
+      "enchanted_mango": 0,
+      "gauntlets": 1,
+      "bracer": 2,
+      "mantle": 2,
+      "null_talisman": 3,
+      "boots": 3,
+      "belt_of_strength": 7,
+      "ward_observer": 5,
+      "clarity": 15,
+      "power_treads": 6,
+      "gloves": 6,
+      "ogre_axe": 9,
+      "sange": 11,
+      "magic_stick": 11,
+      "magic_wand": 12,
+      "blade_of_alacrity": 14,
+      "boots_of_elves": 14,
+      "yasha": 14,
+      "sange_and_yasha": 14,
+      "tpscroll": 17,
+      "aghanims_shard": 16,
+      "dust": 17
+    },
+    "bought_aghs": false,
+    "bought_shard": true
   }
 ]
