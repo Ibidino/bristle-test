@@ -1,5 +1,67 @@
 [
   {
+    "match_id": 9057627136,
+    "match_date": "2026-10-23 08:21 UTC",
+    "radiant_team": "OG",
+    "dire_team": "1win",
+    "player_name": "SSS",
+    "items": [
+      "Ultimate Scepter",
+      "Power Treads",
+      "Soul Ring",
+      "Splintmail",
+      "Black King Bar",
+      "Consecrated Wraps"
+    ],
+    "backpack": [
+      "Unknown",
+      "Unknown",
+      "Unknown"
+    ],
+    "neutral_item": "Serrated Shiv",
+    "win": true,
+    "kda": {
+      "kills": 4,
+      "deaths": 3,
+      "assists": 11
+    },
+    "item_timestamps": {
+      "branches": 0,
+      "magic_stick": 0,
+      "tango": 4,
+      "quelling_blade": 0,
+      "enchanted_mango": 0,
+      "flask": 3,
+      "gauntlets": 4,
+      "circlet": 3,
+      "bracer": 3,
+      "magic_wand": 5,
+      "boots": 5,
+      "ring_of_protection": 7,
+      "clarity": 34,
+      "belt_of_strength": 7,
+      "soul_ring": 8,
+      "gloves": 8,
+      "power_treads": 9,
+      "ogre_axe": 27,
+      "tpscroll": 34,
+      "blade_of_alacrity": 13,
+      "staff_of_wizardry": 15,
+      "point_booster": 17,
+      "ultimate_scepter": 17,
+      "aghanims_shard": 19,
+      "shawl": 22,
+      "crown": 22,
+      "consecrated_wraps": 23,
+      "vitality_booster": 23,
+      "mithril_hammer": 27,
+      "black_king_bar": 28,
+      "splintmail": 33
+    },
+    "bought_aghs": false,
+    "bought_shard": true
+  },
+  {
     "match_id": 9049240069,
     "match_date": "2026-10-17 14:06 UTC",
     "radiant_team": "by_Owl Team",
